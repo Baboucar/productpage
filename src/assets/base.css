@@ -1,0 +1,19 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.spacer{
+    margin-top: 2rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
