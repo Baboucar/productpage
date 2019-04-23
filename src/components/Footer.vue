@@ -13,11 +13,11 @@ Tél : +212 37 56 10 39/037 56 13 08  <br>
 Heure de fonctionnement <br>
 Du Lundi au Vendredi : 8H – 18h
         </p>
-        <div class="icons">
+      <!--  <div class="icons">
 <a class="icons__link" href="https://www.linkedin.com/company/sogesmi-net/about/?viewAsMember=true"><img  src="../assets/link2.png"
         alt="linkedin"></a>
 <a class="icons__link" href="https://www.facebook.com/Sogesminet/"><img src="../assets/face2.png"  alt="facebbok" ></a>
-    </div>
+    </div>  -->
     
 </div>
 
