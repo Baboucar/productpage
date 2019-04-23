@@ -1,11 +1,12 @@
 <template>
     <div>
-  <h1>This is the details page!</h1>
+   <Navigation/>
    {{this.product}}
     </div>
 </template>
 
 <script>
+  import Navigation from '../components/Navigation.vue';
    import productlist from '../assets/productlist.json';
     export default {
         data() {
@@ -14,10 +15,13 @@
                 product:{}
             }
         },
+        components:{
+            Navigation
+        },
        
         
         mounted(){
-            this.product = productlist.object.find(item => item.id == this.$route.params.id);
+            this.product = productlist.object.find(item => item.id == this.id);
              
         }
     }

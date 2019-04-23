@@ -7,8 +7,9 @@
          <div>
           <header class="header">
           <div>
-           <a href="index.html">       
-     <img class="logo__image" src="../assets/logo-header.png" alt="logo"></a>
+                 
+        <router-link to = "/"> <img class="logo__image" src="../assets/logo-header.png" alt="logo"></router-link>
+    
           </div>
                <span class="menu__button" @click="openmenu">&#9776;</span>
           </header>
