@@ -1,23 +1,17 @@
 <template>
   <div id="app">
-<Navigation/>
-<ProductPage/>
-<Footer/>
+
+
+<router-view></router-view>
   </div>
 </template>
 
 <script>
 
-import ProductPage from './components/ProductPage';
-import Navigation from './components/Navigation';
-import Footer from './components/Footer.vue';
-
 export default {
   name: 'app',
   components: {
-    ProductPage,
-    Navigation,
-    Footer
+    
 
   }
 }

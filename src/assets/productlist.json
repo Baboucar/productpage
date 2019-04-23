@@ -1,4 +1,4 @@
-[
+{"object":[
     {
       "id": 1,
       "title": "Caméra Vidéo Panasonic AG-AC8EJ",
@@ -51,7 +51,7 @@
 
     },
     {
-        "id": 3,
+        "id": 4,
         "title":"Location Ecran Géant 98",
         "image": "productimage/Enceinte audio martin 400x400.jpg",
         "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
@@ -70,7 +70,7 @@
 
     },
     {
-        "id": 3,
+        "id": 5,
         "title":"Location Ecran Géant 98",
         "image": "productimage/me95c 400x400.jpg",
         "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
@@ -89,7 +89,7 @@
 
     },
     {
-        "id": 3,
+        "id": 6,
         "title":"Location Ecran Géant 98",
         "image": "productimage/02_IMMERSIVE LARGE SCREEN 400x400_0.jpg",
         "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
@@ -109,3 +109,4 @@
     }
    
 ]
+}

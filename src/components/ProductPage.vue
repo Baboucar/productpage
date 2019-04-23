@@ -1,4 +1,6 @@
 <template>
+<div>
+  <Navigation/>
     <div class="container spacer">
    <h1 class="product_title ">Location de matériel</h1>
 
@@ -14,102 +16,21 @@ Tous les produits ne sont pas sur le site. N'hésitez pas à nous faire savoir v
 
      <div class="product__cards spacer">
        
-       <div class="product__card" v-for="item in items  " :key="item.id">
+       <div class="product__card" v-for="(item,index) in items  " :key="item.id">
         <img class="card__image" :src="item.image" >
-        <a href="" class="card__title">{{item.title}}</a>
+        <!-- <a href="" class="card__title">{{item.title}}</a>-->
+        
+         <router-link  class="card__title" :to="'/' + item.id">{{item.title}}</router-link>
+         
+       
         <div class="card__description">
          <p>{{item.info}}</p>
         </div>
 
        </div>
 
-      <!--       
-       <div class="product__card">
-        <img class="card__image" src="../assets/productimage/panasonic-ag-ac8ej.jpg" alt="">
-        <a href="" class="card__title">Product Title</a>
-        <div class="card__description">
-         <p>Incroyable! Plus grand qu'un mur d'écran de 4 47"</p>
-        </div>
-
-       </div>
-
-
-             
-       <div class="product__card">
-        <img class="card__image" src="../assets/productimage/panasonic-ag-ac8ej.jpg" alt="">
-        <a href="" class="card__title">Product Title</a>
-        <div class="card__description">
-         <p>Incroyable! Plus grand qu'un mur d'écran de 4 47"</p>
-        </div>
-
-       </div>
-     
-         
-       <div class="product__card">
-        <img class="card__image" src="../assets/productimage/panasonic-ag-ac8ej.jpg" alt="">
-        <a href="" class="card__title">Product Title</a>
-        <div class="card__description">
-         <p>Incroyable! Plus grand qu'un mur d'écran de 4 47"</p>
-        </div>
-
-       </div>
-
-        <div class="product__card">
-        <img class="card__image" src="../assets/productimage/panasonic-ag-ac8ej.jpg" alt="">
-        <a href="" class="card__title">Product Title</a>
-        <div class="card__description">
-         <p>Incroyable! Plus grand qu'un mur d'écran de 4 47"</p>
-        </div>
-
-       </div>
-
-
-     <div class="product__card">
-        <img class="card__image" src="../assets/productimage/panasonic-ag-ac8ej.jpg" alt="">
-        <a href="" class="card__title">Product Title</a>
-        <div class="card__description">
-         <p>Incroyable! Plus grand qu'un mur d'écran de 4 47"</p>
-        </div>
-
-       </div>
-
-        <div class="product__card">
-        <img class="card__image" src="../assets/productimage/panasonic-ag-ac8ej.jpg" alt="">
-        <a href="" class="card__title">Product Title</a>
-        <div class="card__description">
-         <p>Incroyable! Plus grand qu'un mur d'écran de 4 47"</p>
-        </div>
-
-       </div>
-
-        <div class="product__card">
-        <img class="card__image" src="../assets/productimage/panasonic-ag-ac8ej.jpg" alt="">
-        <a href="" class="card__title">Product Title</a>
-        <div class="card__description">
-         <p>Incroyable! Plus grand qu'un mur d'écran de 4 47"</p>
-        </div>
-
-       </div>
-
-        <div class="product__card">
-        <img class="card__image" src="../assets/productimage/panasonic-ag-ac8ej.jpg" alt="">
-        <a href="" class="card__title">Product Title</a>
-        <div class="card__description">
-         <p>Incroyable! Plus grand qu'un mur d'écran de 4 47"</p>
-        </div>
-
-       </div>
-
-        <div class="product__card">
-        <img class="card__image" src="../assets/productimage/panasonic-ag-ac8ej.jpg" alt="">
-        <a href="" class="card__title">Product Title</a>
-        <div class="card__description">
-         <p>Incroyable! Plus grand qu'un mur d'écran de 4 47"</p>
-        </div>
-
-       </div>
-     -->
      </div>
+    </div>
     </div>
 </template>
 
@@ -117,18 +38,22 @@ Tous les produits ne sont pas sur le site. N'hésitez pas à nous faire savoir v
 
     
         import productlist from '../assets/productlist.json';
+        import Navigation from '../components/Navigation.vue';
     export default {
     
         data(){
             return{
-              items: productlist,
+              items: productlist.object,
             }
         },
         computed:{
   
         },
         created: function(){
-            console.log(this.items);
+            // console.log(this.items);
+        },
+        components:{
+            Navigation
         }
        
         
