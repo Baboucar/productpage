@@ -16,7 +16,7 @@ Tous les produits ne sont pas sur le site. N'hésitez pas à nous faire savoir v
 
      <div class="product__cards spacer">
        
-       <div class="product__card" v-for="(item,index) in items  " :key="item.id">
+       <div class="product__card" v-for="(item) in items  " :key="item.id">
         <img class="card__image" :src="item.image" >
         <!-- <a href="" class="card__title">{{item.title}}</a>-->
         
@@ -31,6 +31,7 @@ Tous les produits ne sont pas sur le site. N'hésitez pas à nous faire savoir v
 
      </div>
     </div>
+    <Footer/>
     </div>
 </template>
 
@@ -39,6 +40,7 @@ Tous les produits ne sont pas sur le site. N'hésitez pas à nous faire savoir v
     
         import productlist from '../assets/productlist.json';
         import Navigation from '../components/Navigation.vue';
+        import Footer from '../components/Footer.vue';
     export default {
     
         data(){
@@ -53,7 +55,8 @@ Tous les produits ne sont pas sur le site. N'hésitez pas à nous faire savoir v
             // console.log(this.items);
         },
         components:{
-            Navigation
+            Navigation,
+            Footer
         }
        
         
