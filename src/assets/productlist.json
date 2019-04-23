@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Caméra Vidéo Panasonic AG-AC8EJ",
-      "image": "src/assets/panasonic-ag-ac8ej.jpg",
+      "image": "productimage/panasonic-ag-ac8ej.jpg",
       "info": "Caméra Vidéo Panasonic AG-AC8EJ",
       "type": "camera",
       "description":[
@@ -22,7 +22,7 @@
     {
         "id": 2,
         "title":"Location Ecran Géant 98",
-        "image": "02_IMMERSIVE LARGE SCREEN 400x400_0.jpg",
+        "image": "productimage/02_IMMERSIVE LARGE SCREEN 400x400_0.jpg",
         "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
         "type":"frame",
         "description": [
@@ -34,7 +34,64 @@
     {
         "id": 3,
         "title":"Location Ecran Géant 98",
-        "image": "02_IMMERSIVE LARGE SCREEN 400x400_0.jpg",
+        "image": "productimage/02_IMMERSIVE LARGE SCREEN 400x400_0.jpg",
+        "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
+        "type": "television",
+        "description":[
+            "Format 16/9",
+            "Full HD 1920x1080",
+            "Taille image : 2096.64x1179.36mm",
+            "Luminosité 600cd/m²",
+            "Contraste 10000:1",
+            "Pitch : 0.364 (H) x 1.092 (V)",
+            "Angle de vue : 178 / 178",
+            "Consommation électrique 495W/290W"
+
+        ]
+
+    },
+    {
+        "id": 3,
+        "title":"Location Ecran Géant 98",
+        "image": "productimage/02_IMMERSIVE LARGE SCREEN 400x400_0.jpg",
+        "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
+        "type": "television",
+        "description":[
+            "Format 16/9",
+            "Full HD 1920x1080",
+            "Taille image : 2096.64x1179.36mm",
+            "Luminosité 600cd/m²",
+            "Contraste 10000:1",
+            "Pitch : 0.364 (H) x 1.092 (V)",
+            "Angle de vue : 178 / 178",
+            "Consommation électrique 495W/290W"
+
+        ]
+
+    },
+    {
+        "id": 3,
+        "title":"Location Ecran Géant 98",
+        "image": "productimage/02_IMMERSIVE LARGE SCREEN 400x400_0.jpg",
+        "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
+        "type": "television",
+        "description":[
+            "Format 16/9",
+            "Full HD 1920x1080",
+            "Taille image : 2096.64x1179.36mm",
+            "Luminosité 600cd/m²",
+            "Contraste 10000:1",
+            "Pitch : 0.364 (H) x 1.092 (V)",
+            "Angle de vue : 178 / 178",
+            "Consommation électrique 495W/290W"
+
+        ]
+
+    },
+    {
+        "id": 3,
+        "title":"Location Ecran Géant 98",
+        "image": "productimage/02_IMMERSIVE LARGE SCREEN 400x400_0.jpg",
         "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
         "type": "television",
         "description":[
@@ -50,4 +107,5 @@
         ]
 
     }
+   
 ]
