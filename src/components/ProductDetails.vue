@@ -4,13 +4,21 @@
     <div class="productdetails container" >
        <div class="productimages">
        <h2 class="producttitle">{{product.title}}</h2>
-        <img :src="product.image" alt="">
+        <img :src="mainimage" alt="">
+
+          <ul class="thumbnails">
+           
+          <li class="thumbnail__list"  v-for=" (thumbnails, index) in product.thumbnamils" :key="index"> <img class="thumbnail__image" :src="thumbnails" alt="thumbnail" @click="showImage(thumbnails)"> </li>
+
+       </ul>
        </div>
+
+     
 
        <div class="">
        <h2>Description</h2>
        <hr>
-       <ul v-for="(p,index) in product.description"  :key="index">
+       <ul v-for="(p,index) in product.specifications"  :key="index">
        <li>{{p}}</li>
        </ul>
        <h2>Liens utiles</h2>
@@ -41,7 +49,8 @@
         data() {
             return{
                 id:this.$route.params.id,
-                product:{}
+                product:{},
+                mainimage: ""
             }
         },
         components:{
@@ -52,7 +61,13 @@
         
         mounted(){
             this.product = productlist.object.find(item => item.id == this.id);
+             this.mainimage =this.product.image;
              
+        },
+        methods:{
+            showImage(thumbnail){
+                this.mainimage = thumbnail;
+            }
         }
     }
 </script>
@@ -75,6 +90,16 @@
         padding-left: 1rem;
     }
 }
+
+    .thumbnail__list{
+        list-style-type: none;
+    
+    }
+
+     .thumbnails{
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+    }
 @media(min-width: 64rem){
     .productdetails{
         width: 70%;
@@ -84,5 +109,8 @@
     .productimages{
         width: 45%;
     }
+
+   
+
 }
 </style>

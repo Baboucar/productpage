@@ -1,19 +1,30 @@
 {"object":[
     {
       "id": 1,
-      "title": "Caméra Vidéo Panasonic AG-AC8EJ",
+      "title": "Portable LENOVO 15.6”",
       "image": "productimage/LENOVO PORTABLE.jpg",
       "info": "Caméra Vidéo Panasonic AG-AC8EJ",
       "type": "camera",
-      "description":[
-          "Zoom optique 21x, zoom iA 50x et résolution",
-        "Camera Full HD",
-        "Caméra d'épaule professionnelle",
-        "Enregistrement simultané sur 2 cartes SD",
-        "Ecran LCD tactile",
-        "Stabilisateur d'image optique",
-        "28 Mbps @ 50p",
-        "24 Mbps @ 50i"
+      "specifications":[
+          "CPU: AMD E1-7010 1.5G",
+        "Ram: 2G",
+        "HDD: 500G",
+        "LAN: 10M/100M",
+        "ODD: DVD RW",
+        "Display: 15.6’’ HD LED",
+        "Battery: 3Cell",
+        "Color: BLACK TEXTURE",
+        "Lenovo ideapad 110-15ACL",
+        "Model Name: 80TJ",
+        "Notebook IP 110-15ACL E1-7010 2G 500",
+        "Weight: 2.77kg",
+        "Manufactured for Lenovo",
+        "Date 17/03/09"
+    ],
+    "thumbnamils": [
+        "productimage/lenovo ideapad.jpg",
+        "productimage/lenovo_ideapad.jpg",
+        "productimage/lenovo-ideapad-100-15-ibd.jpg"
     ]
 
 
@@ -37,7 +48,7 @@
         "image": "productimage/Bose-freespace-3 400x400.jpg",
         "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
         "type": "television",
-        "description":[
+        "specificatins":[
             "Format 16/9",
             "Full HD 1920x1080",
             "Taille image : 2096.64x1179.36mm",
@@ -56,7 +67,7 @@
         "image": "productimage/Enceinte audio martin 400x400.jpg",
         "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
         "type": "television",
-        "description":[
+        "specifications":[
             "Format 16/9",
             "Full HD 1920x1080",
             "Taille image : 2096.64x1179.36mm",
@@ -85,6 +96,11 @@
             "Angle de vue : 178 / 178",
             "Consommation électrique 495W/290W"
 
+        ],
+        "thumbnamils": [
+            "productimage/lenovo ideapad.jpg",
+            "productimage/lenovo_ideapad.jpg",
+            "productimage/lenovo-ideapad-100-15-ibd.jpg"
         ]
 
     },
@@ -94,7 +110,7 @@
         "image": "productimage/Bose-freespace-3 400x400.jpg",
         "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
         "type": "television",
-        "description":[
+        "specifications":[
             "Format 16/9",
             "Full HD 1920x1080",
             "Taille image : 2096.64x1179.36mm",

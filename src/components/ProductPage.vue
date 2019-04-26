@@ -33,8 +33,9 @@
      <label class="label" for="réseau">Impression, Numérisation, Télecopie
      </label>
        <select name="" id="">
-        <option value="">--PC de bureau</option>
-         <option value="">--PC Portable</option>
+        <option value="">--Imprimantes</option>
+         <option value="">--photocopieurs</option>
+          <option value="">--scanners</option>
        </select>
      </div>
 
@@ -42,8 +43,9 @@
      <label class="label" for="réseau">Réseau, Internet, Wi-Fi
      </label>
        <select name="" id="">
-        <option value="">--PC de bureau</option>
-         <option value="">--PC Portable</option>
+        <option value="">--routeurs</option>
+         <option value="">--switch</option>
+         <option> --wifi </option>
        </select>
      </div>
 
