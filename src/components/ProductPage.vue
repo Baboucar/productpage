@@ -59,7 +59,7 @@
 
      <div class="product__cards spacer">
        
-       <div class="product__card" v-for="(item, index) in search  " :key="index">
+       <div class="product__card" v-for="(item, index) in items  " :key="index">
         <img class="card__image" :src="item.image" >
         <!-- <a href="" class="card__title">{{item.title}}</a>-->
         
@@ -97,7 +97,7 @@
             return this.items.filter(d =>{
               //  console.log(this.searchinput);
                 // console.log(d.type)
-                return d.type == this.searchinput;
+                return d.type.toLowerCase().includes(this.searchinput.toLowerCase())
                
             });
           }
@@ -118,7 +118,7 @@
 
 
  .product__card{
-     box-shadow: 5px 5px 10px 0 rgba(141,132,234,0.1);
+      box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
      margin-top: 2rem;
  }
 
@@ -164,6 +164,10 @@ input[type="submit"]{
     
 }
 
+.flex__inputs{
+  display: grid;
+  align-self: flex-end;
+}
  @media(min-width: 64rem){
   .product__cards{
       display: grid;
