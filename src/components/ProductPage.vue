@@ -52,14 +52,14 @@
 
      
     
-      <input class="btn__submit" type="submit" value="Search" @click="search" >
+      <input class="btn__submit" type="submit" value="Search" >
 
      </form>
      </div>
 
      <div class="product__cards spacer">
        
-       <div class="product__card" v-for="(item, index) in items  " :key="index">
+       <div class="product__card" v-for="(item, index) in search  " :key="index">
         <img class="card__image" :src="item.image" >
         <!-- <a href="" class="card__title">{{item.title}}</a>-->
         

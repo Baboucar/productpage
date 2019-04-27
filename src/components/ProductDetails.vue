@@ -4,8 +4,11 @@
     <div class="productdetails container" >
        <div class="productimages">
        <h2 class="producttitle">{{product.title}}</h2>
+            <ul v-for="(p,index) in product.specifications"  :key="index">
+       <li >{{p}}</li>
+       </ul>
         <img :src="mainimage" alt="">
-
+          
           <ul class="thumbnails">
            
           <li class="thumbnail__list"  v-for=" (thumbnails, index) in product.thumbnamils" :key="index"> <img class="thumbnail__image" :src="thumbnails" alt="thumbnail" @click="showImage(thumbnails)"> </li>
@@ -16,12 +19,12 @@
      
 
        <div class="">
-       <h2>Description</h2>
+       <h2 class="title">Description</h2>
        <hr>
-       <ul v-for="(p,index) in product.specifications"  :key="index">
+       <ul v-for="(p,index) in product.description"  :key="index">
        <li class="description__item">{{p}}</li>
        </ul>
-       <h2>Liens utiles</h2>
+       <h2 class="title">Liens utiles</h2>
        <hr>
        <p>
        -Demander un devis <br>
@@ -73,7 +76,13 @@
 </script>
 
 <style lang="scss" scoped>
-
+.title{
+    color: #3f51b5;
+}
+hr{
+    height: 3px;
+    background: #000000;
+}
  .footer__logo{
        &__image{
             display: block;
