@@ -16,12 +16,13 @@
 
      <div class="search__form">
      <form class="flex__form">
-     <div>
+    
+     <div class="flex__inputs">
      <label class="label" for="product">Produit</label>
-      <input type="text" name="" id="">
+      <input type="text" name="" id="" v-model="searchinput">
      </div>
 
-     <div>
+     <div  class="flex__inputs">
      <label class="label" for="réseau">Ordinateur</label>
        <select name="" id="">
         <option value="">--PC de bureau</option>
@@ -29,7 +30,7 @@
        </select>
      </div>
 
-      <div>
+      <div  class="flex__inputs">
      <label class="label" for="réseau">Impression, Numérisation, Télecopie
      </label>
        <select name="" id="">
@@ -39,7 +40,7 @@
        </select>
      </div>
 
-       <div>
+       <div  class="flex__inputs">
      <label class="label" for="réseau">Réseau, Internet, Wi-Fi
      </label>
        <select name="" id="">
@@ -51,14 +52,14 @@
 
      
     
-      <input class="btn__submit" type="submit" value="Search" >
+      <input class="btn__submit" type="submit" value="Search" @click="search" >
 
      </form>
      </div>
 
      <div class="product__cards spacer">
        
-       <div class="product__card" v-for="(item) in items  " :key="item.id">
+       <div class="product__card" v-for="(item, index) in search  " :key="index">
         <img class="card__image" :src="item.image" >
         <!-- <a href="" class="card__title">{{item.title}}</a>-->
         
@@ -88,10 +89,18 @@
         data(){
             return{
               items: productlist.object,
+              searchinput: ""
             }
         },
         computed:{
-  
+          search:function(){
+            return this.items.filter(d =>{
+              //  console.log(this.searchinput);
+                // console.log(d.type)
+                return d.type == this.searchinput;
+               
+            });
+          }
         },
         created: function(){
             // console.log(this.items);
@@ -134,6 +143,7 @@
     display: block;
     font-weight: bold;
     padding-top: .5rem;
+    font-size: .8rem;
 }
 input[type="text"], input[type="submit"], select{
     width: 100%;
@@ -159,6 +169,9 @@ input[type="submit"]{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-gap: 4rem;
+  }
+  .flex__inputs{
+
   }
   .flex__form{
       display: grid;

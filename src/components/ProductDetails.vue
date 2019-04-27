@@ -19,7 +19,7 @@
        <h2>Description</h2>
        <hr>
        <ul v-for="(p,index) in product.specifications"  :key="index">
-       <li>{{p}}</li>
+       <li class="description__item">{{p}}</li>
        </ul>
        <h2>Liens utiles</h2>
        <hr>
@@ -95,7 +95,13 @@
         list-style-type: none;
     
     }
-
+   .thumbnail__image{
+     width: 300px;
+    height: 150px;
+   }
+   .description__item{
+       list-style-type: none;
+   }
      .thumbnails{
         display: grid;
         grid-template-columns:  1fr 1fr 1fr;
@@ -105,9 +111,10 @@
         width: 70%;
         display: grid;
         grid-template-columns: 2fr 1fr;
+        grid-gap: 3rem;
     }
     .productimages{
-        width: 45%;
+       
     }
 
    
