@@ -50,15 +50,13 @@
         "image": "productimage/c05967095.png",
         "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
         "type":"printer",
-        "specifications":[
+        "description":[
             "Connectivité : USB 2.0 haute vitesse",
             "Ecran du panneau de commande et alimentation : panneau de commande LED",
             "Impression : permet d’imprimer jusqu’à 16 pages par minute (ppm) sur du papier au format A4 et 19 ppm sur du papier au format Lettre",
             "Impression : permet d’imprimer jusqu’à 20pages par minute (ppm) sur du papier au format A4 et 21 ppm sur du papier au format Lettre"
-        ],
-        "description": [
-            "This is just a test"
         ]
+        
 
     },
 
@@ -68,7 +66,7 @@
         "image": "productimage/konica minolta buzhub.jpg",
         "info": "Modèle conseillé pour 3.000 à 5.000 pages par mois",
         "type": "photocopier",
-        "specifications":[
+        "description":[
             "Multifonction noir & blanc et couleur A3 et A4",
             "Copieur – Imprimante – Scanner – Fax",
             "22 pages par minute en noir et blanc et en couleur",
@@ -84,7 +82,7 @@
         "image": "productimage/IRC3330i-1.jpg",
         "info": "Photocopieur couleur e-Studio2050c",
         "type": "television",
-        "specifications":[
+        "description":[
             "20 cpm en couleur et en N & B",
             " Couleurs éclatantes",
             "Imprimante, copieur et fax",
@@ -127,6 +125,11 @@
         "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
         "type": "television",
         "specifications":[
+           
+          
+
+        ],
+        "description":[
             "  Ecran 19.5 LED - Processeur Intel Core i5-6500 6è",
             "  Génération, up to 3.6 GHz, 6 Mo de mémoire cache ",
             " Carte graphique Intel HD Graphics 530 ",
