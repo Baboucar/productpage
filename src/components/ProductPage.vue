@@ -24,9 +24,9 @@
 
      <div  class="flex__inputs">
      <label class="label" for="réseau">Ordinateur</label>
-       <select name="" id="">
-        <option value="">--PC de bureau</option>
-         <option value="">--PC Portable</option>
+       <select name="" id="" @change="searchbyCatogery($event)">
+        <option value="pcdebureau">--PC de bureau</option>
+         <option value="pcportable" >--PC Portable</option>
        </select>
      </div>
 
@@ -52,7 +52,7 @@
 
      
     
-      <input class="btn__submit" type="submit" value="Search" >
+      <!-- <input class="btn__submit" type="submit" value="Search" > -->
 
      </form>
      </div>
@@ -100,10 +100,17 @@
                 return d.type.toLowerCase().includes(this.searchinput.toLowerCase())
                
             });
-          }
+          },
+         
+
         },
         created: function(){
             // console.log(this.items);
+        },
+        methods:{
+             searchbyCatogery(event){
+             console.log(event.target.value);
+          }
         },
         components:{
             Navigation,

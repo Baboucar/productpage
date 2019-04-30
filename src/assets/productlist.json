@@ -5,8 +5,9 @@
       "image": "productimage/LENOVO PORTABLE.jpg",
       "info": "PC Portable professionnel par excellence, l'ordinateur portable LENOVO ideapad 15.6”",
       "type": "laptop",
+      "catogery":"pcportable",
       "specifications":[
-          "CPU: AMD E1-7010 1.5G",
+        "CPU: AMD E1-7010 1.5G",
         "Ram: 2G",
         "HDD: 500G",
         "LAN: 10M/100M",
@@ -45,10 +46,16 @@
 
     {
         "id": 2,
-        "title":"Location Ecran Géant 98",
-        "image": "productimage/61ObAur7oSL._SL1500_.jpg",
+        "title":"Gamme d'imprimantes multifonction HP LaserJet Pro M28-M31",
+        "image": "productimage/c05967095.png",
         "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
-        "type":"frame",
+        "type":"printer",
+        "specifications":[
+            "Connectivité : USB 2.0 haute vitesse",
+            "Ecran du panneau de commande et alimentation : panneau de commande LED",
+            "Impression : permet d’imprimer jusqu’à 16 pages par minute (ppm) sur du papier au format A4 et 19 ppm sur du papier au format Lettre",
+            "Impression : permet d’imprimer jusqu’à 20pages par minute (ppm) sur du papier au format A4 et 21 ppm sur du papier au format Lettre"
+        ],
         "description": [
             "This is just a test"
         ]
@@ -57,55 +64,51 @@
 
     {
         "id": 3,
-        "title":"Location Ecran Géant 98",
-        "image": "productimage/61waFO-YDGL._SL1500_.jpg",
-        "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
-        "type": "television",
-        "specificatins":[
-            "Format 16/9",
-            "Full HD 1920x1080",
-            "Taille image : 2096.64x1179.36mm",
-            "Luminosité 600cd/m²",
-            "Contraste 10000:1",
-            "Pitch : 0.364 (H) x 1.092 (V)",
-            "Angle de vue : 178 / 178",
-            "Consommation électrique 495W/290W"
+        "title":"Bizhub C224e",
+        "image": "productimage/konica minolta buzhub.jpg",
+        "info": "Modèle conseillé pour 3.000 à 5.000 pages par mois",
+        "type": "photocopier",
+        "specifications":[
+            "Multifonction noir & blanc et couleur A3 et A4",
+            "Copieur – Imprimante – Scanner – Fax",
+            "22 pages par minute en noir et blanc et en couleur",
+            "    • Scan recto-verso jusqu’à 160 pages par minute"
+           
 
         ]
 
     },
     {
         "id": 4,
-        "title":"Location Ecran Géant 98",
-        "image": "productimage/Enceinte audio martin 400x400.jpg",
-        "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
+        "title":"Photocopieur couleur e-Studio2050c",
+        "image": "productimage/IRC3330i-1.jpg",
+        "info": "Photocopieur couleur e-Studio2050c",
         "type": "television",
         "specifications":[
-            "Format 16/9",
-            "Full HD 1920x1080",
-            "Taille image : 2096.64x1179.36mm",
-            "Luminosité 600cd/m²",
-            "Contraste 10000:1",
-            "Pitch : 0.364 (H) x 1.092 (V)",
-            "Angle de vue : 178 / 178",
-            "Consommation électrique 495W/290W"
+            "20 cpm en couleur et en N & B",
+            " Couleurs éclatantes",
+            "Imprimante, copieur et fax",
+            "Scanner couleur",
+            "Modules de finition professionnelle"
+           
 
         ]
 
     },
     {
         "id": 5,
-        "title":"Location Ecran Géant 98",
-        "image": "productimage/me95c 400x400.jpg",
-        "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
-        "type": "television",
+        "title":"Canon CanoScan LiDE 400 Scanner à plat A4-",
+        "image": "productimage/scanner.jpg",
+        "info": "Canon CanoScan LiDE 400 Scanner à plat A4-",
+        "type": "scanner",
         "description":[
-            "Format 16/9",
-            "Full HD 1920x1080",
+            "Nom du produit : Canon CanoScan LiDE 400 Scanner à plat A4-Letter 4 ",
+            "Type :Scanner à plat - modèle bureau ",
             "Taille image : 2096.64x1179.36mm",
-            "Luminosité 600cd/m²",
-            "Contraste 10000:1",
-            "Pitch : 0.364 (H) x 1.092 (V)",
+            "Taille maximale de document pris en charge : 216 x 297 mm ",
+            "Fonctions supplémentaires :Numérisation vers Cloud ",
+
+            "Type d'interface : USB 2.0",
             "Angle de vue : 178 / 178",
             "Consommation électrique 495W/290W"
 
@@ -119,19 +122,18 @@
     },
     {
         "id": 6,
-        "title":"Location Ecran Géant 98",
-        "image": "productimage/Bose-freespace-3 400x400.jpg",
+        "title":"Pc de bureau Lenovo S510",
+        "image": "productimage/desktop.jpg",
         "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
         "type": "television",
         "specifications":[
-            "Format 16/9",
-            "Full HD 1920x1080",
-            "Taille image : 2096.64x1179.36mm",
-            "Luminosité 600cd/m²",
-            "Contraste 10000:1",
-            "Pitch : 0.364 (H) x 1.092 (V)",
-            "Angle de vue : 178 / 178",
-            "Consommation électrique 495W/290W"
+            "  Ecran 19.5 LED - Processeur Intel Core i5-6500 6è",
+            "  Génération, up to 3.6 GHz, 6 Mo de mémoire cache ",
+            " Carte graphique Intel HD Graphics 530 ",
+            "Graveur DVD±RW - Ethernet LAN 10/100/1000 Mbps",
+            "4x USB 3.0",
+            "VGA - RJ45 - 1x Display Port - Clavier et Souris USB -"
+          
 
         ]
 
