@@ -110,12 +110,8 @@
             "Angle de vue : 178 / 178",
             "Consommation électrique 495W/290W"
 
-        ],
-        "thumbnamils": [
-            "productimage/lenovo ideapad.jpg",
-            "productimage/lenovo_ideapad.jpg",
-            "productimage/lenovo-ideapad-100-15-ibd.jpg"
         ]
+        
 
     },
     {
@@ -123,7 +119,7 @@
         "title":"Pc de bureau Lenovo S510",
         "image": "productimage/desktop.jpg",
         "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
-        "type": "television",
+        "type": "pcdebureau",
         "specifications":[
            
           
@@ -138,6 +134,31 @@
             "VGA - RJ45 - 1x Display Port - Clavier et Souris USB -"
           
 
+        ]
+
+    },
+    {
+        "id" :7,
+        "title" : "Mini souris USB pour PC portable",
+        "type": "mouse",
+        "image": "productimage/mouse.jpg"
+    },
+    {
+        "id":"8",
+        "title": "Cable securité pour ordinateur portable",
+        "type": "cablesecurity",
+        "image": "productimage/cable-de-securite-pour-ordinateur-portable 400x400.jpg",
+        "description":[
+            "Système verrou à combinaison"
+        ]
+    },
+    {
+        "id":"9",
+        "title": "Clavier et souris sans fil",
+        "image": "productimage/clavier.jpg",
+        "type": "clavier",
+        "description":[
+            "Claviers QWERTY"
         ]
 
     }
