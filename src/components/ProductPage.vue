@@ -61,6 +61,7 @@
      <div class="product__cards spacer">
        
        <div class="product__card" v-for="(item, index) in search  " :key="index">
+         <!-- remove the height from the images ! -->
         <img class="card__image" :src="item.image" >
         <!-- <a href="" class="card__title">{{item.title}}</a>-->
         
@@ -133,6 +134,7 @@
  .card__image{
      display: block;
      margin: 0 auto;
+     height: 300px;
  }
  .card__title{
      display: block;

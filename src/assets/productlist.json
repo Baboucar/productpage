@@ -181,6 +181,27 @@
         ]
      
 
+    },
+    {
+        "id": "11",
+         "title": "Imprimante laser monochrome A4 recto-verso - HP laserjet p2055dn",
+         "image": "productimage/laserjet.jpg",
+         "type" :"printer",
+         "description":[
+            "Imprimante laser noir et blanc",
+            "Recto / Verso" ,
+            "Résolution d'impression : jusqu'à 1200x1200 dpi",
+            "Format A4",
+            "35ppm",
+            "sortie de première page : 8 sec",
+            "USB + Ethernet 10/100/1000",
+            "128Mb RAM",
+            "Compatible PC/MAC",
+            "LxPxH : 37x37x27cm",
+            "poids : 10.7Kg"
+
+
+         ]
     }
    
    
