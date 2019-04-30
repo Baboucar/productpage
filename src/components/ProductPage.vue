@@ -27,6 +27,7 @@
        <select name="" id="" @change="searchbyCatogery($event)">
         <option value="pcdebureau">--PC de bureau</option>
          <option value="pcportable" >--PC Portable</option>
+         <option value="accessoiresinformatique">--accessoires informatique</option>
        </select>
      </div>
 
