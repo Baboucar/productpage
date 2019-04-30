@@ -161,7 +161,28 @@
             "Claviers QWERTY"
         ]
 
+    },
+
+     {
+        "id":"10",
+        "title": "Hub - Switch",
+        "image": "productimage/switch.jpg",
+        "type": "switch",
+        "description":[
+            "Un hub est un concentrateur et un switch un commutateur... Quand le hub reçoit une information il l'envoit partout, alors que le switch qui reçoit une information la redirige uniquement vers le bon destinataire...",
+            "Donc un hub a les mêmes fonctions qu'un switch mais le switch est beaucoup plus performant! ",
+            "Un routeur est comme un switch sauf qu'il y a un port en plus sur lequel on branche un modem pour partager une connexion internet aux PC en réseau!"
+        ],
+        "specifications":[
+           "Hub 16 ports 10/100",
+           "Hub 24 ports 10/100",
+           "Switch 8 ports 10/100",
+           "Switch 24 ports 10/100"
+        ]
+     
+
     }
+   
    
 ]
 }
