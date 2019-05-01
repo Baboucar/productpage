@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Portable LENOVO 15.6”",
-      "image": "productimage/LENOVO PORTABLE.jpg",
+      "image": "productimage/61ObAur7oSL._SL1500_.jpg",
       "info": "PC Portable professionnel par excellence, l'ordinateur portable LENOVO ideapad 15.6”",
       "type": "laptop",
       "catogery":"pcportable",
@@ -36,9 +36,9 @@
          
      ],
     "thumbnamils": [
-        "productimage/61ObAur7oSL._SL1500_.jpg",
+      
         "productimage/61waFO-YDGL._SL1500_.jpg",
-        "productimage/110-15ACL.jpeg"
+        "productimage/2677409.jpg"
     ]
 
 
@@ -202,6 +202,48 @@
 
 
          ]
+    },
+    {
+        "id": "12",
+         "title":"Point d’accès TP-LINK WiFi N 300Mbps – 2 Antennes",
+         "image": "productimage/router-1.jpg",
+         "type" : "router",
+         "description":[
+             "Point d’accès TP-LINK WiFi N 300Mbps – Interface 1 connecteur SMA inversé externe mise à la terre ",
+             "1 port RJ45 10/100 Mbps détection automatique (Auto MDI/MDIX, PoE) ",
+             "Bouton Reset – Alimentation Externe 9V CC / 0,85 A – Normes Sans Fil IEEE 802.11n",
+             "IEEE 802.11g, IEEE 802.11b – Antenne omnidirectionnelle amovible 4 dBi – Fréquence 2,4",
+             "2,4835 GHz – Puissance de transmission Sans fil <20 dBm – Dimensions: 181 x 125 x 36 mm"
+         ]
+    },
+    {
+        "id": "13",
+        "title": "Routeur TP-LINK TL-WR840N Wi-Fi N 300 Mbps",
+        "image":"productimage/router-2.jpg",
+        "type":"router",
+        "description":[
+            "Routeur Sans Fil TL-WR840N – taux de transfert des données: 10, 100 Mbit/s – Technologie de cablâge: ",
+            "10/100Base-T(X) – Standards wifi: 802.11b, 802.11g, 802.11n – Vitesse de transfert des données WLAN",
+            " 11, 54, 300 Mbit/s – Port WAN: Ethernet (RJ-45) – Standards réseau: IEEE 802.11b, IEEE 802.11g, IEEE 802.11n, IEEE 802.3, IEEE 802.3u"
+        ]
+    },
+    {
+        "id":"14",
+        "title":"ROUTEUR ADSL WIFI D-LINK DSL-2730U/NME/C",
+        "image":"productimage/router-3.jpg",
+        "type": "router",
+        "description":[
+            "FAST CONNEXION INTERNET: Dernières ADSL2 / 2 + norme permet la transmission Internet allant jusqu'à 24 Mbps en aval",
+            "1 Mbps en amont HAUTE PERFORMANCE SANS FIL",
+            "echnologie Wireless N 150 est idéal pour les connexions sans fil à haute vitesse, et est compatible avec les appareils sans fil 802.11n/g/b",
+            "TOTAL SECURITY & QoS: Protection par firewall, contrôle d'accès de l'utilisateur, la sécurité WPA/WPA2 sans fil et les files d'attente prioritaires pour la VoIP lisse et multimédia",
+            "interfaces des périphériques  Port ADSL RJ-11",
+            "4 RJ-45 10/100Base-TX ports Ethernet avec auto MDI / MDIX",
+            " Built-in Wireless N 150",
+            " bouton de réinitialisation d'usine",
+            " Bouton WPS"
+
+        ]
     }
    
    

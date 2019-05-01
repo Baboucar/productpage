@@ -27,6 +27,7 @@
        <select name="" id="" @change="searchbyCatogery($event)">
         <option value="pcdebureau">--PC de bureau</option>
          <option value="pcportable" >--PC Portable</option>
+         <option value="routeurs">--routeurs</option>
          <option value="accessoiresinformatique">--accessoires informatique</option>
        </select>
      </div>
@@ -134,7 +135,7 @@
  .card__image{
      display: block;
      margin: 0 auto;
-     height: 300px;
+     height: 200px;
  }
  .card__title{
      display: block;
