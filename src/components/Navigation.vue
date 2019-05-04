@@ -9,8 +9,13 @@
           <div>
                  
         <router-link to = "/"> <img class="logo__image" src="../assets/logo-header.png" alt="logo"></router-link>
+       
     
           </div>
+          <div class="header__nav">
+        <router-link to="/expertise" >PARC LOCATION</router-link>
+        <router-view></router-view>
+        </div>
                <span class="menu__button" @click="openmenu">&#9776;</span>
           </header>
     
@@ -48,14 +53,19 @@
     }
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 
 .header{
   display: flex;
   background:#3f51b5; 
   padding: 1rem 2rem;
+  align-items: center;
+  
 }
 
+.header__nav{
+  display: none;
+}
 .logo__image{
   width: 200px;
 }
@@ -84,7 +94,7 @@
    text-decoration: none;
    padding: .8rem;
    border-bottom: 2px solid ;
-;
+
    color: #FFFFFF;
   
    font-size: 1.5rem;
@@ -100,6 +110,26 @@
      font-size: 1.5rem;
   }
 
+.header__nav{
+  display: block;
+   margin: 0 auto;
+   font-weight: bold;
+    
+
+ 
+   a{
+     color: #FFFFFF;
+     text-decoration: none;
+     &:hover{
+       background: #1a194d;
+       padding: 1rem;
+       transition: all ease .5s;
+       border: 5px;
+       
+     }
+     
+   }
+}
   .nav{
     width: 25rem;
   }

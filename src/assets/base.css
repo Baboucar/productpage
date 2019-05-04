@@ -17,3 +17,8 @@ img{
     height: auto;
 }
 
+select {
+    border: 0 !important;  /*Removes border*/
+  
+}
+

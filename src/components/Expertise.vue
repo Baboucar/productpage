@@ -1,0 +1,123 @@
+<template>
+  <div>
+    <Navigation/>
+    <div class="expertise container">
+      <h2 class="expertise__title">Eurolocation Expert en Logistique Evénementielle.</h2>
+      <section class="ourexperts">
+        <img class="expertise__image" src="productimage/climate-kic-350836.jpg" alt="expertise">
+        <div class="expertise__details">
+          <p>
+            C'est une connaissance acquise au cours de plus de 20 000 prestations réussies, lors de
+            ces 25 dernières années, qui nous permet d'utiliser le terme d'Expert.
+          </p>
+          <h3 class="expertise__title--secondary">Notre expertise:</h3>
+          <hr>
+          <p>C'est de vous accompagner lors de votre événement du point de vue de la logistique.</p>
+          <ul class="expertise__list">
+            <li class="expertise__list--items">Conseil sur le matériel nécessaire.</li>
+            <li
+              class="expertise__list--items"
+            >Fourniture, livraison et installation en temps et en heure</li>
+            <li class="expertise__list--items">Assistance lors de l'utilisation.</li>
+            <li class="expertise__list--items">Désinstallation et récupération en fin d'évènement.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="ourexperts ourknowhow">
+        <img class="expertise__image" src="productimage/william-iven-22449.jpg" alt>
+        <div class="ourknowhow__list">
+          <h3 class="expertise__title">Nos savoir-faire</h3>
+          <hr>
+          <div >
+            <ul>
+              <li class="expertise__list--items">
+                Comprendre les besoins
+                Notre équipe a œuvré lors de congrès de toute nature (scientifiques, économiques, associatifs, médicaux, politiques…), d'événements d'entreprises (séminaires, assemblées générales, formations, lancements de produits…). Nous avons vu ce qu'il faut éviter et ce qu'il faut recommander grâce à notre expérience.
+              </li>
+              <li class="expertise__list--items">
+                Proposer la solution
+                Il y a toujours plusieurs solutions en fonction des objectifs désirés et des contraintes budgétaires. Nous vous aiderons à optimiser vos ressources par nos conseils à haute valeur ajoutée.
+              </li>
+              <li class="expertise__list--items">
+                Exécuter la prestation
+                Le côté intendance est de notre responsabilité. Vous savez que vous êtes entre de bonnes mains et que vous pouvez utiliser votre énergie sur les autres aspects de l'évènement.
+              </li>
+              <li class="expertise__list--items">
+                    Analyser et évaluer
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</template>
+
+<script>
+import Navigation from "../components/Navigation";
+export default {
+  components: {
+    Navigation
+  }
+};
+</script>
+
+<style lang="scss" scoped>
+.expertise {
+  &__details {
+    background: #f2f2f2;
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px,
+      rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+    padding: 2rem;
+    position: relative;
+    margin: -6rem 1rem;
+  }
+
+  &__list {
+    &--items {
+      padding-top: 1rem;
+    }
+  }
+}
+hr {
+  background: #3f51b5;
+
+  height: 2px;
+  border: none;
+}
+
+.ourknowhow {
+  margin-top: 8rem;
+}
+@media (min-width: 64rem) {
+  .expertise {
+    &__title {
+      font-size: 3rem;
+
+      &--secondary {
+        font-size: 2rem;
+      }
+    }
+    &__details {
+      position: static;
+      margin: 0;
+    }
+    &__image {
+      margin: 3rem 0;
+      width: 50%;
+    }
+  }
+  .ourexperts {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .ourknowhow{
+      flex-direction: row;
+      margin-top: 0;
+
+      &__list{
+          padding-left: 2rem;
+      }
+  }
+}
+</style>

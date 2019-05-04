@@ -27,7 +27,7 @@
        <select name="" id="" @change="searchbyCatogery($event)">
         <option value="pcdebureau">--PC de bureau</option>
          <option value="pcportable" >--PC Portable</option>
-         <option value="routeurs">--routeurs</option>
+         
          <option value="accessoiresinformatique">--accessoires informatique</option>
        </select>
      </div>
@@ -46,7 +46,7 @@
      <label class="label" for="réseau">Réseau, Internet, Wi-Fi
      </label>
        <select name="" id="">
-        <option value="">--routeurs</option>
+        <option value="" >--routeurs</option>
          <option value="">--switch</option>
          <option> --wifi </option>
        </select>
@@ -61,7 +61,7 @@
 
      <div class="product__cards spacer">
        
-       <div class="product__card" v-for="(item, index) in search  " :key="index">
+       <div class="product__card" v-for="(item, index) in search" :key="index">
          <!-- remove the height from the images ! -->
         <img class="card__image" :src="item.image" >
         <!-- <a href="" class="card__title">{{item.title}}</a>-->
@@ -92,15 +92,17 @@
         data(){
             return{
               items: productlist.object,
-              searchinput: ""
+              searchinput: "",
+              selectedtype:"",
             }
         },
         computed:{
           search:function(){
+              
             return this.items.filter(d =>{
               //  console.log(this.searchinput);
                 // console.log(d.type)
-                return d.type.toLowerCase().includes(this.searchinput.toLowerCase())
+                return d.type.toLowerCase().includes(this.searchinput);
                
             });
           },
@@ -109,10 +111,13 @@
         },
         created: function(){
             // console.log(this.items);
+
         },
         methods:{
              searchbyCatogery(event){
-             console.log(event.target.value);
+               this.selectedtype = event.target.value;
+           
+             console.log(this.selectedtype);
           }
         },
         components:{
@@ -135,7 +140,7 @@
  .card__image{
      display: block;
      margin: 0 auto;
-     height: 200px;
+    
  }
  .card__title{
      display: block;
@@ -186,7 +191,7 @@ input[type="submit"]{
   .product__cards{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-gap: 4rem;
+      grid-gap: 2rem;
   }
   .flex__inputs{
 
