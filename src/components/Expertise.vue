@@ -28,7 +28,7 @@
         <div class="ourknowhow__list">
           <h3 class="expertise__title">Nos savoir-faire</h3>
           <hr>
-          <div >
+          <div>
             <ul>
               <li class="expertise__list--items">
                 Comprendre les besoins
@@ -42,28 +42,46 @@
                 Exécuter la prestation
                 Le côté intendance est de notre responsabilité. Vous savez que vous êtes entre de bonnes mains et que vous pouvez utiliser votre énergie sur les autres aspects de l'évènement.
               </li>
-              <li class="expertise__list--items">
-                    Analyser et évaluer
-              </li>
+              <li class="expertise__list--items">Analyser et évaluer</li>
             </ul>
           </div>
         </div>
       </section>
+      <section class="goodarea">
+        <h2>Our areas of expertise</h2>
+        <hr>
+        <ul>
+          <li>Informatique et bureautique: ordinateurs, imprimantes, réseaux, photocopieurs…</li>
+          <li>Affichage digital: grand écrans, murs d'images, projecteurs vidéo…</li>
+          <li>Développement d'applications spéciales pour l'évènement</li>
+          <li>Son : micros, amplis, enregistrement audio et vidéo</li>
+          <li>Lumière</li>
+          <li>Assistance</li>
+        </ul>
+        <p>
+          <strong>Décrivez vos besoins en cliquant sur le lien ci-dessous de demande de devis</strong>
+          Vos données personnelles ne feront pas l'objet de traitement informatique et ne seront utilisées que dans le cadre du présent devis pour pouvoir vous contacter.
+        </p>
+      </section>
     </div>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 export default {
   components: {
-    Navigation
+    Navigation,
+    Footer
   }
 };
 </script>
 
 <style lang="scss" scoped>
 .expertise {
+     font-size: 1.2rem;
   &__details {
     background: #f2f2f2;
     box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px,
@@ -85,11 +103,18 @@ hr {
   height: 2px;
   border: none;
 }
-
+.goodarea{
+    background: #f2f2f2;
+    padding: 2rem;
+}
 .ourknowhow {
   margin-top: 8rem;
+ 
 }
 @media (min-width: 64rem) {
+    .goodarea{
+        width: 50%;
+    }
   .expertise {
     &__title {
       font-size: 3rem;
@@ -111,13 +136,13 @@ hr {
     display: flex;
     flex-direction: row-reverse;
   }
-  .ourknowhow{
-      flex-direction: row;
-      margin-top: 0;
+  .ourknowhow {
+    flex-direction: row;
+    margin-top: 0;
 
-      &__list{
-          padding-left: 2rem;
-      }
+    &__list {
+      padding-left: 2rem;
+    }
   }
 }
 </style>
