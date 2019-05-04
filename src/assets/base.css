@@ -19,6 +19,7 @@ img{
 
 select {
     border: 0 !important;  /*Removes border*/
-  
+   -webkit-border: 0;  /*Removes default chrome and safari style*/
+   -moz-border: 0;  /*Removes default style Firefox*/
 }
 

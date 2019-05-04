@@ -126,6 +126,7 @@ hr {
     &__details {
       position: static;
       margin: 0;
+      width: 50%;
     }
     &__image {
       margin: 3rem 0;
@@ -142,6 +143,7 @@ hr {
 
     &__list {
       padding-left: 2rem;
+      width: 50%;
     }
   }
 }
