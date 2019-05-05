@@ -53,18 +53,19 @@
         <h2>Nos domaines de compétence</h2>
         <hr>
         <ul>
-          <li> <router-link to="" class="expertise__links">bureautique:</router-link> et <router-link to="" class="expertise__links"> ordinateurs</router-link>, imprimantes, réseaux, photocopieurs…</li>
-         
+          <li> <router-link to="/informatique" class="expertise__links">bureautique:</router-link> et <router-link to="" class="expertise__links"> ordinateurs</router-link>, imprimantes, réseaux, photocopieurs…</li>
+          <li><router-link to="" class="expertise__links">Assistance</router-link></li>
         </ul>
         <p>
           <strong>Décrivez vos besoins en cliquant sur le lien ci-dessous de demande de devis</strong>
           Vos données personnelles ne feront pas l'objet de traitement informatique et ne seront utilisées que dans le cadre du présent devis pour pouvoir vous contacter.
         </p>
-        <ul>
-            <li><router-link to="" class="expertise__links">Assistance</router-link></li>
-        </ul>
+      
+           
+     
       </section>
     </div>
+             <router-link to="" class="btn__devis container">Demander un devis</router-link>
     <Footer/>
   </div>
 </template>

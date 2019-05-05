@@ -9,7 +9,7 @@
 }
 
 .spacer{
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 img{
@@ -23,3 +23,16 @@ select {
    -moz-border: 0;  /*Removes default style Firefox*/
 }
 
+
+.btn__devis{
+    text-decoration: none;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: .8rem 0;
+    margin-top: 4rem;
+    background: #3F51B5;
+    font-size: 1.2rem;
+    border-radius: 5px;
+
+}
