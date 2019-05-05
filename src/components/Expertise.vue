@@ -42,26 +42,27 @@
                 Exécuter la prestation
                 Le côté intendance est de notre responsabilité. Vous savez que vous êtes entre de bonnes mains et que vous pouvez utiliser votre énergie sur les autres aspects de l'évènement.
               </li>
-              <li class="expertise__list--items">Analyser et évaluer</li>
+              <li class="expertise__list--items">Analyser et évaluer <br>
+              Après la prestation, nous serons heureux d'analyser avec vous les résultats de notre intervention. 
+              </li>
             </ul>
           </div>
         </div>
       </section>
       <section class="goodarea">
-        <h2>Our areas of expertise</h2>
+        <h2>Nos domaines de compétence</h2>
         <hr>
         <ul>
-          <li>Informatique et bureautique: ordinateurs, imprimantes, réseaux, photocopieurs…</li>
-          <li>Affichage digital: grand écrans, murs d'images, projecteurs vidéo…</li>
-          <li>Développement d'applications spéciales pour l'évènement</li>
-          <li>Son : micros, amplis, enregistrement audio et vidéo</li>
-          <li>Lumière</li>
-          <li>Assistance</li>
+          <li> <router-link to="" class="expertise__links">bureautique:</router-link> et <router-link to="" class="expertise__links"> ordinateurs</router-link>, imprimantes, réseaux, photocopieurs…</li>
+         
         </ul>
         <p>
           <strong>Décrivez vos besoins en cliquant sur le lien ci-dessous de demande de devis</strong>
           Vos données personnelles ne feront pas l'objet de traitement informatique et ne seront utilisées que dans le cadre du présent devis pour pouvoir vous contacter.
         </p>
+        <ul>
+            <li><router-link to="" class="expertise__links">Assistance</router-link></li>
+        </ul>
       </section>
     </div>
     <Footer/>
@@ -82,6 +83,11 @@ export default {
 <style lang="scss" scoped>
 .expertise {
      font-size: 1.2rem;
+     &__links{
+         color: #3f51b5;
+         text-decoration: none;
+         font-weight: bold;
+     }
   &__details {
     background: #f2f2f2;
     box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px,
