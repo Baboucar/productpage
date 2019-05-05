@@ -4,10 +4,10 @@
     <div class="expertise container">
       <h2 class="expertise__title">Eurolocation Expert en Logistique Evénementielle.</h2>
       <section class="ourexperts">
-        <img class="expertise__image" src="productimage/climate-kic-350836.jpg" alt="expertise">
+        <img class="expertise__image" src="productimage/expertise-1.jpeg" alt="expertise">
         <div class="expertise__details">
           <p>
-            C'est une connaissance acquise au cours de plus de 20 000 prestations réussies, lors de
+            C'est une connaissance acquise au cours de plus de mos prestations réussies, lors de
             ces 25 dernières années, qui nous permet d'utiliser le terme d'Expert.
           </p>
           <h3 class="expertise__title--secondary">Notre expertise:</h3>
@@ -24,7 +24,7 @@
         </div>
       </section>
       <section class="ourexperts ourknowhow">
-        <img class="expertise__image" src="productimage/william-iven-22449.jpg" alt>
+        <img class="expertise__image" src="productimage/expertise-2.jpeg" alt="expertise">
         <div class="ourknowhow__list">
           <h3 class="expertise__title">Nos savoir-faire</h3>
           <hr>
