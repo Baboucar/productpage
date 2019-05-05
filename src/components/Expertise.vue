@@ -7,8 +7,8 @@
         <img class="expertise__image" src="productimage/expertise-1.jpeg" alt="expertise">
         <div class="expertise__details">
           <p>
-            C'est une connaissance acquise au cours de plus de mos prestations réussies, lors de
-            ces 25 dernières années, qui nous permet d'utiliser le terme d'Expert.
+            C'est une connaissance acquise au cours de plus de nos prestations réussies, lors de
+            ces  dernières années, qui nous permet d'utiliser le terme d'Expert.
           </p>
           <h3 class="expertise__title--secondary">Notre expertise:</h3>
           <hr>
