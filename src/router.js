@@ -5,6 +5,7 @@ import ProductDetails from './components/ProductDetails';
 import Expertise from './components/Expertise';
 import Informatique from './components/Informatique';
 import Assistance from './components/Assistance';
+import Demander from './components/Demander';
 
 Vue.use(Router);
 
@@ -26,6 +27,11 @@ const router = new Router({
       path:'/assistance',
       name:'assistance',
       component:Assistance
+       },
+       {
+         path:'/demander',
+         name:'demander',
+         component:Demander
        },
    {
        path: '/',

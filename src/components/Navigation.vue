@@ -15,7 +15,7 @@
           <div class="header__nav">
         <router-link to="/" class="header__nav__link" >PARC LOCATION</router-link>
           <router-link to="/expertise" class="header__nav__link" >NOTRE EXPERTISE</router-link>
-            <router-link to="/expertise" class="  request" >DEMANDER UN DEVIS</router-link>
+            <router-link to="/demander" class="  request" >DEMANDER UN DEVIS</router-link>
         <router-view></router-view>
         </div>
                <span class="menu__button" @click="openmenu">&#9776;</span>
