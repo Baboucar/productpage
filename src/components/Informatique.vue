@@ -8,9 +8,7 @@
              <div>
                  <p>L'équipement informatique est un vaste sujet puisqu'il comporte aussi bien</p>
              <ul>
-                 <li>les unités centrales Mac ou PC,</li>
-                 <li>les tablettes, les téléphones portables,</li>
-                 <li>les écrans de toutes dimensions, tactiles ou non,</li>
+                 <li>les ordinateurs portables</li>
                  <li>les imprimantes, scanners, photocopieurs, mais aussi toute la partie</li>
                  <li>réseau et internet.</li>
                  <li>Et cette liste n'est pas exhaustive! </li>

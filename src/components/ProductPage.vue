@@ -25,7 +25,8 @@
      <div  class="flex__inputs">
      <label class="label" for="réseau">Ordinateur</label>
        <select name="" id="" @change="searchbyCatogery($event)">
-        <option value="pcdebureau">--PC de bureau</option>
+         <option value="tout">-Tout-</option>
+        <option value="pcdebureau" >--PC de bureau</option>
          <option value="pcportable" >--PC Portable</option>
          
          <option value="accessoiresinformatique">--accessoires informatique</option>
@@ -36,6 +37,7 @@
      <label class="label" for="réseau">Impression, Numérisation, Télecopie
      </label>
        <select name="" id="">
+           <option value="tout">-Tout-</option>
         <option value="">--Imprimantes</option>
          <option value="">--photocopieurs</option>
           <option value="">--scanners</option>
@@ -46,6 +48,7 @@
      <label class="label" for="réseau">Réseau, Internet, Wi-Fi
      </label>
        <select name="" id="">
+           <option value="tout">-Tout-</option>
         <option value="" >--routeurs</option>
          <option value="">--switch</option>
          <option> --wifi </option>
@@ -94,15 +97,20 @@
               items: productlist.object,
               searchinput: "",
               selectedtype:"",
+            
             }
         },
         computed:{
           search:function(){
+              const re = new RegExp(this.searchinput.trim(),'gi');
+            return this.items.filter(d => {
               
-            return this.items.filter(d =>{
-              //  console.log(this.searchinput);
-                // console.log(d.type)
-                return d.type.toLowerCase().includes(this.searchinput);
+                //return  d.type === this.searchinput || d.catogery === this.searchinput;
+                  //console.log(d.type);
+                  //console.log(d.category);
+                 // return match(re);
+                 return  d.type.match(re) || d.category.match(re);
+                  
                
             });
           },
@@ -115,9 +123,10 @@
         },
         methods:{
              searchbyCatogery(event){
-               this.selectedtype = event.target.value;
-           
-             console.log(this.selectedtype);
+               this.searchinput = event.target.value;
+              this.search;  
+              
+         
           }
         },
         components:{

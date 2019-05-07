@@ -1,9 +1,11 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import ProductPage from './components/ProductPage.vue';
-import ProductDetails from './components/ProductDetails.vue';
-import Expertise from './components/Expertise.vue';
+import ProductPage from './components/ProductPage';
+import ProductDetails from './components/ProductDetails';
+import Expertise from './components/Expertise';
 import Informatique from './components/Informatique';
+import Assistance from './components/Assistance';
+
 Vue.use(Router);
 
 const router = new Router({
@@ -19,6 +21,11 @@ const router = new Router({
        path:'/informatique',
        name:'informatique',
        component:Informatique
+       },
+       {
+      path:'/assistance',
+      name:'assistance',
+      component:Assistance
        },
    {
        path: '/',

@@ -13,7 +13,9 @@
     
           </div>
           <div class="header__nav">
-        <router-link to="/expertise" >PARC LOCATION</router-link>
+        <router-link to="/" class="header__nav__link" >PARC LOCATION</router-link>
+          <router-link to="/expertise" class="header__nav__link" >NOTRE EXPERTISE</router-link>
+            <router-link to="/expertise" class="  request" >DEMANDER UN DEVIS</router-link>
         <router-view></router-view>
         </div>
                <span class="menu__button" @click="openmenu">&#9776;</span>
@@ -114,21 +116,38 @@
   display: block;
    margin: 0 auto;
    font-weight: bold;
+  
+   
     
 
  
-   a{
+   &__link{
      color: #FFFFFF;
      text-decoration: none;
+     padding-left: 2rem;
      &:hover{
        background: #1a194d;
        padding: 1rem;
        transition: all ease .5s;
        border: 5px;
+       margin-left: 2rem;
        
      }
      
    }
+}
+
+
+.request{
+  
+  margin-left: 2rem;
+  padding: 1rem;
+  background: #FFFFFF;
+  color: #1a194d;
+  text-decoration: none;
+  border-radius: 2px;
+   
+
 }
   .nav{
     width: 25rem;

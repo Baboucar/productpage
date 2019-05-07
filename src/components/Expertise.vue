@@ -7,7 +7,7 @@
         <img class="expertise__image" src="productimage/expertise-1.jpeg" alt="expertise">
         <div class="expertise__details">
           <p>
-            C'est une connaissance acquise au cours de plus de nos prestations réussies, lors de
+            C'est une connaissance acquise au cours  de nos prestations réussies, lors de
             ces  dernières années, qui nous permet d'utiliser le terme d'Expert.
           </p>
           <h3 class="expertise__title--secondary">Notre expertise:</h3>
@@ -54,7 +54,7 @@
         <hr>
         <ul>
           <li> <router-link to="/informatique" class="expertise__links">bureautique:</router-link> et <router-link to="" class="expertise__links"> ordinateurs</router-link>, imprimantes, réseaux, photocopieurs…</li>
-          <li><router-link to="" class="expertise__links">Assistance</router-link></li>
+          <li><router-link to="/assistance" class="expertise__links">Assistance</router-link></li>
         </ul>
         <p>
           <strong>Décrivez vos besoins en cliquant sur le lien ci-dessous de demande de devis</strong>
