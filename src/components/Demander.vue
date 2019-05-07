@@ -61,6 +61,26 @@ Modalités de livraison
                 <label for="">Je désire une livraison</label>
                 <input type="checkbox" name="" id="">
             </div>
+
+            <div>
+                <label class="form__label" for="">Lieu de livraison</label>
+                <input type="text" name="" id="">
+            </div>
+
+            <div>
+                <label class="form__label" for="">Quel est votre projet ?</label>
+                <textarea name="" id="" cols="30" rows="10">
+
+                </textarea>
+            </div>
+            <div>
+                <label class="form__label" for="">Date de début de l'événement</label>
+                <input type="datetime" name="" id="">
+            </div>
+      <div>
+
+            <input type="file" name="" id="">
+      </div>
         </form>
     </div>
 
@@ -87,5 +107,27 @@ import Navigation from '../components/Navigation';
 
   label{
        padding-left: 1rem;
+  }
+  textarea{
+      width: 100%;
+  }
+input[type="text"], input[type="datetime"]{
+    height: 45px;
+    width: 100%;
+}
+@media(min-width: 64rem){
+    input[type="text"], input[type="datetime"],textarea{
+     width: 30%;   
+}
+}
+
+  input[type="text"], input[type="datetime"], textarea{
+    background: #F2F2F2;
+    border: none;
+    
+  }
+  .form__label{
+      display: block;
+      margin-top: 1rem;
   }
 </style>
