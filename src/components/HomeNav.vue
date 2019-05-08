@@ -59,7 +59,9 @@
 
 .header{
   display: flex;
-  background:#3f51b5; 
+ background: none;
+  position: absolute;
+  width: 100%;
   padding: 1rem 2rem;
   align-items: center;
   

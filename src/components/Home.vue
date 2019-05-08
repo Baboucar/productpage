@@ -1,6 +1,6 @@
 <template>
     <div>
-  <Navigation :class="changebackground" />
+  <HomeNav/>
    <div class="slider">
        <img src="productimage/neuropsychiatrie-congres-2017.jpg" alt="">
    </div>
@@ -8,21 +8,15 @@
 </template>
 
 <script>
-import Navigation from '../components/Navigation';
+import HomeNav from '../components/HomeNav';
     export default {
         components:{
-            Navigation
+            HomeNav
         },
-        data(){
-           return{
-               changebackground:'.header'
-           }
-        }
+        
     }
 </script>
 
 <style lang="scss" scoped>
-   .header{
-       background: #FFFFFF;
-   }
+   
 </style>

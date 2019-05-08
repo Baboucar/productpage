@@ -6,7 +6,7 @@ import Expertise from './components/Expertise';
 import Informatique from './components/Informatique';
 import Assistance from './components/Assistance';
 import Demander from './components/Demander';
-import Home from './components/Home'
+import Home from './components/Home';
 
 Vue.use(Router);
 
