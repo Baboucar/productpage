@@ -24,7 +24,7 @@ export default {
 
 #app {
   line-height: 1.7;
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+ font-family: 'Fira Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #263238;
