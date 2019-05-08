@@ -81,17 +81,47 @@ Modalités de livraison
 
             <input type="file" name="" id="">
       </div>
+      
+
+        </form>
+
+        <form action="">
+         <h3>Vos coordonnées</h3>
+         <div>
+             <label class="form__label">Nom</label>
+               <input type="text" name="" id="">
+         </div>
+         <div>
+             <label class="form__label">Telephone</label>
+               <input type="text" name="" id="">
+         </div>
+         <div>
+             <label class="form__label">Email</label>
+               <input type="text" name="" id="">
+         </div>
+        <div>
+             <label class="form__label">Email</label>
+               <input type="text" name="" id="">
+        </div>
+
+        <div>
+          <input class="btn__submit" type="submit" value="Soumettre">
+      </div>
+
         </form>
     </div>
+  <Footer/>
 
     </div>
 </template>
 
 <script>
 import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
     export default {
         components:{
-         Navigation
+         Navigation,
+         Footer
         }
     }
 </script>
@@ -115,6 +145,14 @@ input[type="text"], input[type="datetime"]{
     height: 45px;
     width: 100%;
 }
+.btn__submit{
+    margin-top: 1.5rem;
+    padding: .8rem;
+    border-radius: 4px;
+    background: #02003A;
+    border: none;
+    color: #FFFFFF;
+}
 @media(min-width: 64rem){
     input[type="text"], input[type="datetime"],textarea{
      width: 30%;   
@@ -129,5 +167,6 @@ input[type="text"], input[type="datetime"]{
   .form__label{
       display: block;
       margin-top: 1rem;
+      font-weight: bold;
   }
 </style>
