@@ -4,29 +4,43 @@
     <section class="container">
       <h2 class="assistance__title">Eurolocation développement et assistance</h2>
       <div class="assistance__grid">
-        <img src="productimage/activities.jpg" alt="assistance">
+        <img src="productimage/assistance.jpg" alt="assistance">
         <div class="assistance__description">
-          <p>Eurolocation Informatique avec son équipe de développeurs vous propose la</p>
+          
           <ul class="assistance__listings">
-            <li>Conception d'animations bornes et d'applications tactile diverses pour vos appareils en location : animation borne en boucle, application tactile interactive, formulaire de récupération de données, jeux, etc.</li>
+            <li>L'assistance technique en la personne d'un spécialiste présent sur toute la durée de votre événement pour assurer le bon fonctionnement des installations ainsi qu'une intervention rapide en cas de problèmes.</li>
 
-            <li>
-                Enregistrement vidéo ou sonore d'un spectacle vivant (conférence, spectacle, audition, table ronde, concert…) pour une réutilisation différée (sous forme de DVD, fichier informatique…) ou directe (streaming live).
-            </li>
-            <li>
-                Installation et <router-link to="/">mise en réseau</router-link> filaire ou WiFi de matériel informatique
-
-            </li>
-            <li>
-                L'assistance technique en la personne d'un spécialiste présent sur toute la durée de votre événement pour assurer le bon fonctionnement des installations ainsi qu'une intervention rapide en cas de problèmes. 
-            </li>
+            
           </ul>
 
           <p>
-              Nos designers sont également à votre disposition pour habiller votre borne en concevant un visuel autocollant aux couleurs de votre charte graphique
+             Vous organisez un événement de petite taille (séminaire ou convention en hôtellerie, salon, réunion plénière…) et vous avez besoin de matériel informatique ? Vous devez fournir à vos participants une connexion internet ?
+Je vous apporte la solution : du matériel adapté et un service sur mesure pour répondre à vos exigences de fiabilité et de performance.
+Je m’occupe de la fourniture, de l’installation, de la gestion et de la maintenance pour l’ensemble des prestations informatiques suivantes :
+ </p>
+ <ul class="list">
+   <li>– Location d’ordinateurs,</li>
+   <li>– Câblage de salles ou de stands, </li>
+   <li>– Création de réseaux privés et sécurisés,</li>
+   <li>– Connexion internet via un réseau filaire ou Wi-Fi sécurisé, sur une partie ou sur la totalité de la surface exploitée,</li>
+   <li>– Outil vous permettant d’accréditer les utilisateurs du réseau Wi-Fi,
+etc.</li>
+ </ul>
+ 
 
 
-          </p>
+
+<p>
+  Pendant votre événement, je reste entièrement disponible, soit à distance soit sur site.
+Toutes mes prestations événementielles font l’objet d’un devis détaillé et personnalisé réalisé après déplacement sur site. Lors de ma visite sur place, nous aurons déterminé ensemble les besoins liés à votre événement : évaluation du volume de connexions, étude de la configuration des locaux…
+</p>
+
+<ul>
+  <li>– Location de matériel informatique et réseau ; </li>
+  <li></li>
+</ul>
+
+
         </div>
       </div>
     </section>
@@ -47,7 +61,14 @@ export default {
 
 <style lang="scss" scoped>
 
+li{
+  list-style-type: none;
+}
+.list{
+  font-weight: bold;
+}
 .assistance{
+
 &__description{
     font-size: 1.3rem;
      background: #F2F2F2;

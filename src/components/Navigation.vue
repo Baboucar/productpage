@@ -5,10 +5,10 @@
        
 
          <div>
-          <header class="header">
+          <header class="header" id="header">
           <div>
                  
-        <router-link to = "/"> <img class="logo__image" src="../assets/logo-header.png" alt="logo"></router-link>
+        <router-link to = "/home"> <img class="logo__image" src="../assets/logo-header.png" alt="logo"></router-link>
        
     
           </div>
