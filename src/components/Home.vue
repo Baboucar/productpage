@@ -1,9 +1,13 @@
 <template>
     <div>
   <HomeNav/>
-   <div class="slider">
+   <section class="slider">
        <img src="productimage/neuropsychiatrie-congres-2017.jpg" alt="">
-   </div>
+   </section>
+    <section class="prestations">
+        <h1 class="prestations__title center__text">NOS PRESTATIONS</h1>
+
+    </section>
     </div>
 </template>
 
@@ -18,5 +22,13 @@ import HomeNav from '../components/HomeNav';
 </script>
 
 <style lang="scss" scoped>
+
+@media(min-width:64rem){
+    .prestations{
+        &__title{
+            font-size: 3rem;
+        }
+    }
+}
    
 </style>

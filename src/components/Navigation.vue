@@ -87,7 +87,7 @@
   right: -2000px;
   transition: all .5s;
   height: 100%;
-     background: #1a194d;
+     background:#1a194dd4;
 
 
 }
