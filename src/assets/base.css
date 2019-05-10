@@ -4,6 +4,9 @@
     
 }
 
+a{
+    text-decoration: none;
+}
 .center__text{
     text-align: center;
 }

@@ -1,6 +1,6 @@
 <template>
     <div>
-      <footer class="footer spacer">
+      <footer class="footer">
       <div class="footer__logo">
       <img class="footer__logo__image" src="../assets/logo-footer.png" alt="footer logo">
       </div>
@@ -9,9 +9,9 @@
         <h3 class="">Contact</h3>
         <p class="">
 1135 Hay,Massira 1 - Temara - Marco<br>
-Tél:+2123756 10 39/037 56 13 08  <br>
+Tél:+21237 56 10 39/037 56 13 08  <br>
 Heure de fonctionnement <br>
-Du Lundi au Vendredi:8H – 18h
+Du Lundi au Vendredi:8H – 18h <br>
         </p>
       <!--  <div class="icons">
 <a class="icons__link" href="https://www.linkedin.com/company/sogesmi-net/about/?viewAsMember=true"><img  src="../assets/link2.png"
@@ -92,6 +92,7 @@ input[type="submit"]{
     font-size: 1.2rem;
     padding: .7rem 2.5rem;
     border-radius: 4px;
+    margin-bottom: 2rem;
 }
 .form__input{
     margin-top: 1.5rem;
