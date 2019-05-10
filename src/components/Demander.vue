@@ -145,7 +145,7 @@ margin-top: 1.5rem;
 }
 }
 
-  input[type="text"], input[type="datetime"], textarea{
+  input[type="text"], input[type="date"], textarea{
     background: #F2F2F2;
     border: none;
     
