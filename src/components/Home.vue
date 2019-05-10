@@ -122,6 +122,9 @@ import Slick from 'vue-slick';
       &__description{
           background:#F2F2F2;
       }
+      &__image{
+          width: 100%;
+      }
   }
 
 @media(min-width:64rem){

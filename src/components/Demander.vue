@@ -55,8 +55,13 @@ Modalités de livraison
                 </textarea>
             </div>
             <div>
-                <label class="form__label" for="">Date de début de l'événement</label>
-                <input type="datetime" name="" id="">
+                <label for="" class="form__label">Date de début de l'événement</label>
+                   <input type="date" name="" id="">
+            </div>
+            
+            <div>
+                <label class="form__label" for="">Date de fin de l'événement</label>
+                <input type="date" name="" id="">
             </div>
       <div>
 
@@ -122,12 +127,12 @@ import Footer from '../components/Footer';
   textarea{
       width: 100%;
   }
-input[type="text"], input[type="datetime"]{
+input[type="text"], input[type="date"]{
     height: 45px;
     width: 100%;
 }
 .btn__submit{
-    margin-top: 1.5rem;
+margin-top: 1.5rem;
     padding: .8rem;
     border-radius: 4px;
     background: #02003A;
@@ -135,7 +140,7 @@ input[type="text"], input[type="datetime"]{
     color: #FFFFFF;
 }
 @media(min-width: 64rem){
-    input[type="text"], input[type="datetime"],textarea{
+    input[type="text"], input[type="date"],textarea{
      width: 30%;   
 }
 }
