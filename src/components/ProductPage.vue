@@ -36,22 +36,22 @@
       <div  class="flex__inputs">
      <label class="label" for="réseau">Impression, Numérisation, Télecopie
      </label>
-       <select name="" id="">
+       <select name="" id="" @change="   secondsearchbyCatogery($event)">
            <option value="tout">-Tout-</option>
-        <option value="">--Imprimantes</option>
-         <option value="">--photocopieurs</option>
-          <option value="">--scanners</option>
+        <option value="printer">--Imprimantes</option>
+         <option value="photocopieurs">--photocopieurs</option>
+          <option value="scanners">--scanners</option>
        </select>
      </div>
 
        <div  class="flex__inputs">
      <label class="label" for="réseau">Réseau, Internet, Wi-Fi
      </label>
-       <select name="" id="">
+       <select name="" id="" @change=" thirdsearchbyCatogery($event)">
            <option value="tout">-Tout-</option>
-        <option value="" >--routeurs</option>
-         <option value="">--switch</option>
-         <option> --wifi </option>
+        <option value="routeurs" >--routeurs</option>
+         <option value="switch">--switch</option>
+         <option value="wifi"> --wifi </option>
        </select>
      </div>
 
@@ -127,6 +127,14 @@
               this.search;  
               
          
+          },
+          secondsearchbyCatogery(event){
+                this.searchinput = event.target.value;
+              this.search; 
+          },
+          thirdsearchbyCatogery(event){
+             this.searchinput = event.target.value;
+              this.search; 
           }
         },
         components:{

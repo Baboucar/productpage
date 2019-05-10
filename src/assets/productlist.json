@@ -47,7 +47,7 @@
     {
         "id": 2,
         "title":"Gamme d'imprimantes multifonction HP LaserJet Pro M28-M31",
-        "category":"accessoiresinformatique",
+        "category":"scanners",
         "image": "productimage/c05967095.png",
         "info": "Incroyable! Plus grand qu'un mur d'écran de 4 47",
         "type":"printer",
@@ -64,7 +64,7 @@
     {
         "id": 3,
         "title":"Bizhub C224e",
-        "category":"accessoiresinformatique",
+        "category":"photocopieurs",
         "image": "productimage/konica minolta buzhub.jpg",
         "info": "Modèle conseillé pour 3.000 à 5.000 pages par mois",
         "type": "photocopier",
@@ -81,7 +81,7 @@
     {
         "id": 4,
         "title":"Photocopieur couleur e-Studio2050c",
-        "category": "accessoiresinformatique",
+        "category": "photocopieurs",
         "image": "productimage/IRC3330i-1.jpg",
         "info": "Photocopieur couleur e-Studio2050c",
         "type": "television",
@@ -103,6 +103,7 @@
         "image": "productimage/scanner.jpg",
         "info": "Canon CanoScan LiDE 400 Scanner à plat A4-",
         "type": "scanner",
+        "category":"scanners",
         "description":[
             "Nom du produit : Canon CanoScan LiDE 400 Scanner à plat A4-Letter 4 ",
             "Type :Scanner à plat - modèle bureau ",
@@ -177,7 +178,7 @@
         "title": "Hub - Switch",
         "image": "productimage/switch.jpg",
         "type": "switch",
-        "category":"accessoiresinformatique",
+        "category":"switch",
         "description":[
             "Un hub est un concentrateur et un switch un commutateur... Quand le hub reçoit une information il l'envoit partout, alors que le switch qui reçoit une information la redirige uniquement vers le bon destinataire...",
             "Donc un hub a les mêmes fonctions qu'un switch mais le switch est beaucoup plus performant! ",
@@ -218,7 +219,7 @@
         "id": "12",
          "title":"Point d’accès TP-LINK WiFi N 300Mbps – 2 Antennes",
          "image": "productimage/router-1.jpg",
-         "category":"",
+         "category":"wifi",
          "type" : "router",
          "description":[
              "Point d’accès TP-LINK WiFi N 300Mbps – Interface 1 connecteur SMA inversé externe mise à la terre ",
@@ -233,7 +234,7 @@
         "title": "Routeur TP-LINK TL-WR840N Wi-Fi N 300 Mbps",
         "image":"productimage/router-2.jpg",
         "type":"router",
-        "category":"",
+        "category":"routeurs",
         "description":[
             "Routeur Sans Fil TL-WR840N – taux de transfert des données: 10, 100 Mbit/s – Technologie de cablâge: ",
             "10/100Base-T(X) – Standards wifi: 802.11b, 802.11g, 802.11n – Vitesse de transfert des données WLAN",
@@ -245,7 +246,7 @@
         "title":"ROUTEUR ADSL WIFI D-LINK DSL-2730U/NME/C",
         "image":"productimage/router-3.jpg",
         "type": "router",
-        "category":"",
+        "category":"routeurs",
         "description":[
             "FAST CONNEXION INTERNET: Dernières ADSL2 / 2 + norme permet la transmission Internet allant jusqu'à 24 Mbps en aval",
             "1 Mbps en amont HAUTE PERFORMANCE SANS FIL",

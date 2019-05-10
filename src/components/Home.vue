@@ -68,11 +68,13 @@ import Slick from 'vue-slick';
         },
        
        mounted: function() {
+           $(document).ready(function(){
        $('.responsive').slick({
   dots: true,
   infinite: false,
   speed: 300,
   slidesToShow: 4,
+   autoplay: true,
   slidesToScroll: 4,
   responsive: [
     {
@@ -103,7 +105,7 @@ import Slick from 'vue-slick';
     // instead of a settings object
   ]
 });
-				
+	})			
     } 
     
     }
