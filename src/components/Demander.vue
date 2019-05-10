@@ -14,40 +14,21 @@
                <input type="checkbox" name="" id="">
            </div>
 
-           <div class="flex__input">
-               <label for=""> Grand Ecran</label>
-               <input type="checkbox" name="gradnecran" id="">
-           </div>
 
-           <div class="flex__input">
-               <label for=""> Mur d'images</label>
-               <input type="checkbox" name="" id="">
-           </div>
+         
 
-           <div class="flex__input">
-               <label for="vide">Vidéoprojection</label>
-               <input type="checkbox" name="" id="">
-           </div>
+          
 
-           <div class="flex__input">
-               <label for="">Sonorisation</label>
-               <input type="checkbox" name="" id="">
-           </div>
+           
 
-           <div class="flex__input">
-               <label for="">Eclairage</label>
-               <input type="checkbox" name="" id="">
-           </div>
+          
 
             <div class="flex__input">
                 <label for="">Assistance</label>
                 <input type="checkbox">
             </div>
 
-            <div class="flex__input">
-                <label for="">Développement spécifique</label>
-                <input type="checkbox" name="" id="">
-            </div>
+           
            
             <h5>Modalités de livraison</h5>
             <div class="flex__input">
