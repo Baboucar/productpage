@@ -215,7 +215,7 @@ input[type="submit"]{
   }
   .flex__form{
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr ;
       grid-gap: 2rem;
   }
   .btn__submit{

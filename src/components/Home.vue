@@ -7,15 +7,19 @@
     <section class="prestations">
         <h1 class="prestations__title center__text">NOS PRESTATIONS</h1>
 
-  
-<div class="responsive">
-  <div>your content</div>
-  <div>your content</div>
-  <div>your content</div>
-</div>		
+   <div class="presentations_cards">
+         <div class="presentation__card">
+             <img class="card__image" src="productimage/scene_reebook_2016.jpg" alt="">
+              <p class="presentation__description">
+                  Captation Audio et Vidéo
+              </p>
+             
+         </div>
+         
+    </div>  
 
     </section>
-     <section class="container parles">
+     <!-- <section class="container parles">
          <div class="parles__description">
              <h1 class="parles__title">Ils parlent de nous</h1>
              <p>
@@ -35,7 +39,7 @@ Nous n'avons pas eu le débriefe client, mais les équipes de Lever de Rideau so
          </div>
          <img class="parles__image" src="productimage/image.png" alt="">
 
-     </section>
+     </section> -->
      <HomeFooter/>
     </div>
 </template>
@@ -121,19 +125,28 @@ import Slick from 'vue-slick';
 
       &__description{
           background:#F2F2F2;
+          padding: 1rem;
       }
       &__image{
           width: 100%;
       }
   }
+.presentation__card{
+    box-shadow: 5px 5px 10px 0 rgba(141,132,234,0.1);
+    width: 50%;
+    margin: 0 auto;
+}
 
-@media(min-width:64rem){
-    .prestations{
-        &__title{
-            font-size: 3rem;
-        }
-    }
-    .btn{
+.presentation__description{
+    color: #3f51b5;
+}
+
+.card__image{
+    margin: 0 auto;
+    display: block;
+}
+
+ .btn{
         background: #3f51b5;
     border: none;
     color: #FFFFFF;
@@ -143,6 +156,13 @@ import Slick from 'vue-slick';
     margin-top: 2rem;
     padding: .7rem 2.5rem;
     }
+@media(min-width:64rem){
+    .prestations{
+        &__title{
+            font-size: 3rem;
+        }
+    }
+   
    .parles{
        width: 100%;
         display: grid;
