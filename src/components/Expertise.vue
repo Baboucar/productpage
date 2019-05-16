@@ -66,7 +66,9 @@
       </section>
     </div>
              <router-link to="" class="btn__devis container">Demander un devis</router-link>
-    <Footer/>
+<v-content>
+    <Footer id="contact-section"/>
+    </v-content>
   </div>
 </template>
 

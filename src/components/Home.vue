@@ -59,7 +59,9 @@ Nous n'avons pas eu le débriefe client, mais les équipes de Lever de Rideau so
          <img class="parles__image" src="productimage/image.png" alt="">
 
      </section> -->
-     <HomeFooter/>
+     <v-content>
+     <HomeFooter id="contact-footer"/>
+     </v-content>
     </div>
 </template>
 

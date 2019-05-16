@@ -44,7 +44,9 @@ Toutes mes prestations événementielles font l’objet d’un devis détaillé 
         </div>
       </div>
     </section>
-    <Footer/>
+ <v-content>
+    <Footer id="contact-section"/>
+    </v-content>
   </div>
 </template>
 

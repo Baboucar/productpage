@@ -1,6 +1,6 @@
 <template>
     <div>
-      <footer class="footer spacer">
+      <footer class="footer spacer" id="contact">
       <div class="footer__logo">
       <img class="footer__logo__image" src="../assets/logo-footer.png" alt="footer logo">
       </div>

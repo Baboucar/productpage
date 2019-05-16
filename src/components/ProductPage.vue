@@ -80,7 +80,10 @@
 
      </div>
     </div>
-    <Footer/>
+    <v-content>
+    <Footer id="contact-section"/>
+    </v-content>
+
     </div>
 </template>
 

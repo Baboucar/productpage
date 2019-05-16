@@ -24,20 +24,47 @@
          </div>
       </header>
       <nav class="nav" v-if="seen">
-      <a href="http://">Qui sommes-nous?</a>
-      <a href="http://">Prestations de service</a>
-      <a href="http://">Parc location</a>
-      <a href="http://">Contact</a>
-      <a href="http://">Demander un devis</a>
+        
+         <a href="http://" class="first__link links ">Qui sommes-nous?</a>
+          <button @click="openfirstdropdown" class="dropdownbutton">Prestations de service</button>
+          <hr>
+           <div class="drop-downcontainer" v-if="visible">
+               <a href="" class="sub__links">Developpement</a>
+             
+               <a href="" class="sub__links">Livraison et instllation </a>
+           </div>
+          
+           
+              <a href="http://" class="links">Deve</a>
+            
+        
+           <button @click="openseconddropdown" class="dropdownbutton">Parc location</button>
+          <hr>
+           <div class="drop-downcontainer" v-if="visibleLocation">
+               <a href="" class="sub__links">Ordinateurs</a>
+             
+               <a href="" class="sub__links">Reseaux,internet,wifi </a>
+           </div>
+
+         
+           <router-link class="links" to="#" v-scroll-to="'#contact-footer'">Contact</router-link>
+           <a href="http://" class="links">Demander un devis</a>
+        
+     
+   
+   
+     
+     
       </nav>
     </div>
 </template>
-
 <script>
     export default{
        data(){
          return{
-           seen:true
+           seen:true,
+           visible: false,
+           visibleLocation:false
          }
        },
 
@@ -50,6 +77,22 @@
                document.querySelector(".nav").style.right =  "-2000px"
              }
             
+         },
+          openfirstdropdown(){
+            if(this.visible == true ){
+              this.visible = false;
+            }
+            else{
+              this.visible = true;
+            }
+         },
+         openseconddropdown(){
+            if(this.visibleLocation == true ){
+              this.visibleLocation = false;
+            }
+            else{
+              this.visibleLocation = true;
+            }
          }
        }
     }
@@ -65,6 +108,27 @@
   padding: 1rem 2rem;
   align-items: center;
   
+}
+
+.dropdownbutton{
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  padding: 1rem;
+
+  &::selection{
+    border: none;
+  }
+}
+
+.sub__links{
+  display: block;
+  padding-left: 1.5rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  color: #FFFFFF;
+  font-size: 1.2rem;
 }
 
 .header__nav{

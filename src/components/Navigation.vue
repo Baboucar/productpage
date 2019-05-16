@@ -41,12 +41,13 @@
            <button @click="openseconddropdown" class="dropdownbutton">Parc location</button>
           <hr>
            <div class="drop-downcontainer" v-if="visibleLocation">
-               <a href="" class="sub__links">Developpement</a>
+               <a href="" class="sub__links">Ordinateurs</a>
              
-               <a href="" class="sub__links">Livraison et instllation </a>
+               <a href="" class="sub__links">Reseaux,internet,wifi </a>
            </div>
 
-           <a href="http://" class="links">Contact</a>
+         
+           <router-link class="links" to="#" v-scroll-to="'#contact-section'">Contact</router-link>
            <a href="http://" class="links">Demander un devis</a>
         
      
