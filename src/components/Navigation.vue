@@ -24,11 +24,35 @@
          </div>
       </header>
       <nav class="nav" v-if="seen">
-      <a href="http://">Qui sommes-nous?</a>
-      <a href="http://">Prestations de service</a>
-      <a href="http://">Parc location</a>
-      <a href="http://">Contact</a>
-      <a href="http://">Demander un devis</a>
+        
+         <a href="http://" class="first__link links ">Qui sommes-nous?</a>
+          <button @click="openfirstdropdown" class="dropdownbutton">Prestations de service</button>
+          <hr>
+           <div class="drop-downcontainer" v-if="visible">
+               <a href="" class="sub__links">Developpement</a>
+             
+               <a href="" class="sub__links">Livraison et instllation </a>
+           </div>
+          
+           
+              <a href="http://" class="links">Deve</a>
+            
+        
+           <button @click="openfirstdropdown" class="openseconddropdown">Parc location</button>
+          <hr>
+           <div class="drop-downcontainer" v-if="visibleLocation">
+               <a href="" class="sub__links">Developpement</a>
+             
+               <a href="" class="sub__links">Livraison et instllation </a>
+           </div>
+           <a href="http://" class="links">Contact</a>
+           <a href="http://" class="links">Demander un devis</a>
+        
+     
+   
+   
+     
+     
       </nav>
     </div>
 </template>
@@ -37,7 +61,9 @@
     export default{
        data(){
          return{
-           seen:true
+           seen:true,
+           visible:false,
+           visibleLocation:false
          }
        },
 
@@ -50,6 +76,22 @@
                document.querySelector(".nav").style.right =  "-2000px"
              }
             
+         },
+         openfirstdropdown(){
+            if(this.visible == true ){
+              this.visible = false;
+            }
+            else{
+              this.visible = true;
+            }
+         },
+         openseconddropdown(){
+            if(this.visibleLocation == true ){
+              this.visibleLocaton = false;
+            }
+            else{
+              this.visibleLocation = true;
+            }
          }
        }
     }
@@ -63,6 +105,15 @@
   padding: 1rem 2rem;
   align-items: center;
   
+}
+
+.sub__links{
+  display: block;
+  padding-left: 1.5rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  color: #FFFFFF;
+  font-size: 1.2rem;
 }
 
 .header__nav{
@@ -91,10 +142,23 @@
 
 
 }
-.nav a{
+.dropdownbutton{
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  padding: 1rem;
+
+  &::selection{
+    border: none;
+  }
+}
+.nav .links{
    display: block;
    text-decoration: none;
-   padding: .8rem;
+  //  padding: .8rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
    border-bottom: 2px solid ;
 
    color: #FFFFFF;
@@ -103,15 +167,19 @@
 
 }
 
-.nav a:nth-child(1){
-  padding-top: 6rem;
-}
+// .nav :nth-child(1){
+//   padding-top: 6rem;
+// }
 
 @media(min-width: 720px) {
   .menu__button{
      font-size: 1.5rem;
   }
 
+ .first__link{
+   background:#1a194d;
+  padding-top: 6rem;
+}
 .header__nav{
   display: block;
    margin: 0 auto;

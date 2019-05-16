@@ -7,7 +7,8 @@
     <section class="prestations">
         <h1 class="prestations__title center__text">NOS PRESTATIONS</h1>
 
-   <div class="presentations_cards">
+   <div class="presentation__cards container">
+         
          <div class="presentation__card">
              <img class="card__image" src="productimage/scene_reebook_2016.jpg" alt="">
               <p class="presentation__description">
@@ -15,6 +16,24 @@
               </p>
              
          </div>
+
+           <div class="presentation__card">
+             <img class="card__image" src="productimage/scene_reebook_2016.jpg" alt="">
+              <p class="presentation__description">
+                  Captation Audio et Vidéo
+              </p>
+             
+         </div>
+
+          <div class="presentation__card">
+             <img class="card__image" src="productimage/scene_reebook_2016.jpg" alt="">
+              <p class="presentation__description">
+                  Captation Audio et Vidéo
+              </p>
+             
+         </div>
+
+         
          
     </div>  
 
@@ -131,14 +150,18 @@ import Slick from 'vue-slick';
           width: 100%;
       }
   }
+
+
 .presentation__card{
     box-shadow: 5px 5px 10px 0 rgba(141,132,234,0.1);
-    width: 50%;
     margin: 0 auto;
+        border: 1px solid #dcdcdc;
+    margin-top: 2rem;
 }
 
 .presentation__description{
     color: #3f51b5;
+    padding: .7rem;
 }
 
 .card__image{
@@ -161,8 +184,13 @@ import Slick from 'vue-slick';
         &__title{
             font-size: 3rem;
         }
+        
     }
-   
+   .presentation__cards{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        
+   }
    .parles{
        width: 100%;
         display: grid;
