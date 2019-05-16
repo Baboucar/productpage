@@ -38,13 +38,14 @@
               <a href="http://" class="links">Deve</a>
             
         
-           <button @click="openfirstdropdown" class="openseconddropdown">Parc location</button>
+           <button @click="openseconddropdown" class="dropdownbutton">Parc location</button>
           <hr>
            <div class="drop-downcontainer" v-if="visibleLocation">
                <a href="" class="sub__links">Developpement</a>
              
                <a href="" class="sub__links">Livraison et instllation </a>
            </div>
+
            <a href="http://" class="links">Contact</a>
            <a href="http://" class="links">Demander un devis</a>
         
@@ -87,7 +88,7 @@
          },
          openseconddropdown(){
             if(this.visibleLocation == true ){
-              this.visibleLocaton = false;
+              this.visibleLocation = false;
             }
             else{
               this.visibleLocation = true;
