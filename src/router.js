@@ -11,6 +11,7 @@ import Ordinatures from './components/Ordinatures';
 import Printers from './components/Printers';
 import Photocopy from './components/Photocopy';
 import Routers from './components/Routers';
+import Qui from './components/Qui'
 Vue.use(Router);
 
 const router = new Router({
@@ -21,6 +22,11 @@ const router = new Router({
         path: '/expertise',
         name:'expertise',
         component:Expertise
+       },
+       {
+        path:'/qui',
+        name:'qui',
+        component:Qui
        },
        {
        path:'/informatique',

@@ -25,7 +25,7 @@
       </header>
       <nav class="nav" v-if="seen">
         
-         <a href="http://" class="first__link links ">Qui sommes-nous?</a>
+        <router-link to="/qui" class="first__link links ">Qui sommes-nous?</router-link>
           <button @click="openfirstdropdown" class="dropdownbutton">Prestations de service</button>
           <hr>
            <div class="drop-downcontainer" v-if="visible">
