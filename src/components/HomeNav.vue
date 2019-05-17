@@ -8,7 +8,7 @@
           <header class="header" >
           <div>
                  
-        <router-link to = "/"> <img class="logo__image" src="../assets/logo-header.png" alt="logo"></router-link>
+        <router-link to = "/"> <img class="logo__image" src="../assets/bw-b-w-logo.png" alt="logo"></router-link>
        
     
           </div>

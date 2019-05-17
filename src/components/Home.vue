@@ -149,7 +149,7 @@ import Slick from 'vue-slick';
           padding: 1rem;
       }
       &__image{
-          width: 100%;
+          width: 100px;
       }
   }
 
