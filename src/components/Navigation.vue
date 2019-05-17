@@ -173,7 +173,7 @@
 //   padding-top: 6rem;
 // }
 
-@media(min-width: 720px) {
+@media(min-width: 64rem) {
   .menu__button{
      font-size: 1.5rem;
    position: fixed;
