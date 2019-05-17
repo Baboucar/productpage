@@ -93,6 +93,7 @@
         import productlist from '../assets/productlist.json';
         import Navigation from '../components/Navigation.vue';
         import Footer from '../components/Footer.vue';
+        // import v-content from 'vue-scrollto';
     export default {
     
         data(){

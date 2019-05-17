@@ -53,7 +53,7 @@
         <h2>Nos domaines de compétence</h2>
         <hr>
         <ul>
-          <li> <router-link to="/informatique" class="expertise__links">bureautique:</router-link> et <router-link to="" class="expertise__links"> ordinateurs</router-link>, imprimantes, réseaux, photocopieurs…</li>
+          <li> <router-link to="/informatique" class="expertise__links">informatique</router-link> et <router-link to="" class="expertise__links">bureautique</router-link>, imprimantes, réseaux, photocopieurs…</li>
           <li><router-link to="/assistance" class="expertise__links">Assistance</router-link></li>
         </ul>
         <p>
@@ -65,7 +65,7 @@
      
       </section>
     </div>
-             <router-link to="" class="btn__devis container">Demander un devis</router-link>
+             <router-link to="/demander" class="btn__devis container">Demander un devis</router-link>
 <v-content>
     <Footer id="contact-section"/>
     </v-content>

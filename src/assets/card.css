@@ -1,0 +1,37 @@
+.product__card{
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+   margin-top: 2rem;
+}
+
+.card__image{
+   display: block;
+   margin: 0 auto;
+  
+}
+.card__title{
+   display: block;
+   text-decoration: none;
+   color:#1a194d;
+   font-weight: bold;
+   padding: 1rem;
+}
+.card__description{
+   padding: 1rem;
+   
+}
+
+
+
+
+
+@media(min-width: 64rem){
+.product__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+
+
+
+}

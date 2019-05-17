@@ -8,9 +8,11 @@
              <div>
                  <p>L'équipement informatique est un vaste sujet puisqu'il comporte aussi bien</p>
              <ul>
-                 <li>les ordinateurs portables</li>
-                 <li>les imprimantes, scanners, photocopieurs, mais aussi toute la partie</li>
-                 <li>réseau et internet.</li>
+                 <v-content>
+                 <li><router-link to="/ordinatures">les ordinateurs portables</router-link></li>
+                 </v-content>
+                 <li>les <router-link to="/printers">imprimantes</router-link>, <router-link to="">scanners</router-link>, <router-link to="/photocopy">photocopieurs</router-link>, mais aussi toute la partie</li>
+                 <li><router-link to="/router">réseau et internet.</router-link></li>
                  <li>Et cette liste n'est pas exhaustive! </li>
              </ul>
 
@@ -21,7 +23,7 @@
          </div>
      </section>
 
-         <router-link to="" class="btn__devis container">Demander un devis</router-link>
+         <router-link to="/demander" class="btn__devis container">Demander un devis</router-link>
   <v-content>
     <Footer id="contact-section"/>
     </v-content>

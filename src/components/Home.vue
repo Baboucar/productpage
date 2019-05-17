@@ -191,6 +191,7 @@ import Slick from 'vue-slick';
    .presentation__cards{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
+            margin-bottom: 4rem;
         
    }
    .parles{
