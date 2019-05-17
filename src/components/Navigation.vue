@@ -8,12 +8,12 @@
           <header class="header" >
           <div>
                  
-        <router-link to = "/home"> <img class="logo__image" src="../assets/logo-header.png" alt="logo"></router-link>
+        <router-link to = "/"> <img class="logo__image" src="../assets/bw-b-w-logo.png" alt="logo"></router-link>
        
     
           </div>
           <div class="header__nav">
-        <router-link to="/" class="header__nav__link" >PARC LOCATION</router-link>
+        <router-link to="/product" class="header__nav__link" >PARC LOCATION</router-link>
           <router-link to="/expertise" class="header__nav__link" >NOTRE EXPERTISE</router-link>
             <router-link to="/demander" class="  request" >DEMANDER UN DEVIS</router-link>
         <router-view></router-view>
@@ -122,7 +122,7 @@
   display: none;
 }
 .logo__image{
-  width: 200px;
+  width: 100px;
 }
 .menu__button{
     margin-left: auto;
@@ -176,6 +176,8 @@
 @media(min-width: 720px) {
   .menu__button{
      font-size: 1.5rem;
+   position: fixed;
+   right: 4rem;
   }
 
  .first__link{

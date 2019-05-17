@@ -28,7 +28,7 @@
       </section>
       
          <section class="ourexperts ourknowhow container">
-        <img class="expertise__image" src="productimage/expertise-2.jpeg" alt="expertise">
+        <img class="expertise__image" src="productimage/installation_evenement.jpg" alt="expertise">
         <div class="ourknowhow__list">
           <h3 class="expertise__title">Nos savoir-faire</h3>
           <hr>
@@ -53,6 +53,7 @@
           </div>
         </div>
       </section>
+          <router-link to="/demander" class="btn__devis container">Demander un devis</router-link>
     <Footer/>
     </div>
 </template>

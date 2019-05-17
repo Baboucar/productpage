@@ -2,7 +2,7 @@
     <div>
       <footer class="footer spacer" id="contact">
       <div class="footer__logo">
-      <img class="footer__logo__image" src="../assets/logo-footer.png" alt="footer logo">
+      <img class="footer__logo__image" src="../assets/bw-b-w-logo.png" alt="footer logo">
       </div>
 
      <div class="footer__address container">
@@ -71,6 +71,7 @@ Du Lundi au Vendredi:8H – 18h
             display: block;
         margin: 0 auto;
         padding-top: 2rem;
+            width: 200px;
        }
     }
 }

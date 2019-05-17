@@ -39,7 +39,7 @@ const router = new Router({
       component:Assistance
        },
        {
-           path:'/home',
+           path:'/',
            name:'home',
            component:Home
        },
@@ -70,7 +70,7 @@ const router = new Router({
        },
        
    {
-       path: '/',
+       path: '/product',
        name:'product',
        component:ProductPage
    },
