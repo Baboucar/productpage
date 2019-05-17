@@ -1,0 +1,72 @@
+.expertise {
+    font-size: 1.2rem;
+    &__links{
+        color: #3f51b5;
+        text-decoration: none;
+        font-weight: bold;
+    }
+ &__details {
+   background: #f2f2f2;
+   box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px,
+     rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+   padding: 2rem;
+   position: relative;
+   margin: -6rem 1rem;
+ }
+
+ &__list {
+   &--items {
+     padding-top: 1rem;
+   }
+ }
+}
+hr {
+ background: #3f51b5;
+
+ height: 2px;
+ border: none;
+}
+.goodarea{
+   background: #f2f2f2;
+   padding: 2rem;
+}
+.ourknowhow {
+ margin-top: 8rem;
+
+}
+@media (min-width: 64rem) {
+   .goodarea{
+       width: 50%;
+   }
+ .expertise {
+   &__title {
+     font-size: 3rem;
+
+     &--secondary {
+       font-size: 2rem;
+     }
+   }
+   &__details {
+     position: static;
+     margin: 0;
+     width: 50%;
+   }
+   &__image {
+     margin: 3rem 0;
+     width: 50%;
+   }
+ }
+ .ourexperts {
+   display: flex;
+   flex-direction: row-reverse;
+ }
+ .ourknowhow {
+   flex-direction: row;
+   margin-top: 0;
+
+   &__list {
+     padding-left: 2rem;
+     width: 50%;
+   }
+ }
+}

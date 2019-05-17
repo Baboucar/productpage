@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navigation/>
+  <Navigation/>
     <div class="expertise container">
       <h2 class="expertise__title">Eurolocation Expert en Logistique Evénementielle.</h2>
       <section class="ourexperts">
