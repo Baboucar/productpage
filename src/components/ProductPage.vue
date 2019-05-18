@@ -25,7 +25,7 @@
      <div  class="flex__inputs">
      <label class="label" for="réseau">Ordinateur</label>
        <select name="" id="" @change="searchbyCatogery($event)">
-         <option value="tout">-Tout-</option>
+         <option value="" >-Tout-</option>
         <option value="pcdebureau" >--PC de bureau</option>
          <option value="pcportable" >--PC Portable</option>
          
@@ -37,7 +37,7 @@
      <label class="label" for="réseau">Impression, Numérisation, Télecopie
      </label>
        <select name="" id="" @change="   secondsearchbyCatogery($event)">
-           <option value="tout">-Tout-</option>
+           <option value="">-Tout-</option>
         <option value="printer">--Imprimantes</option>
          <option value="photocopieurs">--photocopieurs</option>
           <option value="scanners">--scanners</option>
@@ -48,7 +48,7 @@
      <label class="label" for="réseau">Réseau, Internet, Wi-Fi
      </label>
        <select name="" id="" @change=" thirdsearchbyCatogery($event)">
-           <option value="tout">-Tout-</option>
+           <option value="">-Tout-</option>
         <option value="routeurs" >--routeurs</option>
          <option value="switch">--switch</option>
          <option value="wifi"> --wifi </option>
@@ -139,7 +139,11 @@
           thirdsearchbyCatogery(event){
              this.searchinput = event.target.value;
               this.search; 
-          }
+          },
+          //  listallproduct(event){
+          //    this.searchinput = event.target.value;
+          //    this.search;
+          //  }
         },
         components:{
             Navigation,

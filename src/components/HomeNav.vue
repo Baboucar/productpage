@@ -34,20 +34,21 @@
            </div>
           
            
-              <a href="http://" class="links">Deve</a>
+         
             
         
            <button @click="openseconddropdown" class="dropdownbutton">Parc location</button>
           <hr>
            <div class="drop-downcontainer" v-if="visibleLocation">
-               <a href="" class="sub__links">Ordinateurs</a>
-             
-               <a href="" class="sub__links">Reseaux,internet,wifi </a>
+              
+                  <router-link to="/ordinatures" class="sub__links">Ordinateurs</router-link>
+               <router-link to="/router" class="sub__links">Reseaux,internet,wifi</router-link>
            </div>
 
          
            <router-link class="links" to="#" v-scroll-to="'#contact-footer'">Contact</router-link>
-           <a href="http://" class="links">Demander un devis</a>
+           <router-link to="/demander" class="links">Demander un devis</router-link>
+         
         
      
    
@@ -107,6 +108,9 @@
   padding: 1rem 2rem;
   align-items: center;
   
+}
+hr{
+  background: #FFFFFF;
 }
 
 .dropdownbutton{
