@@ -4,7 +4,7 @@
      <section class="container">
          <h2 class="informatique__title">L'équipement informatique</h2>
          <div class="informatique__grid">
-             <img src="productimage/network-698598_1280.jpg" alt="">
+             <img src="productimage/informatique.jpeg" alt="">
              <div>
                  <p>L'équipement informatique est un vaste sujet puisqu'il comporte aussi bien</p>
              <ul>

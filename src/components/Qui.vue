@@ -4,22 +4,19 @@
    <h1 class="expertise__title container" >Qui sommes-nous?</h1>
 
     <section class="ourexperts container">
-        <img class="expertise__image" src="productimage/idemia-barcelone-2018.jpg" alt="expertise">
+        <img class="expertise__image" src="productimage/qui.jpeg" alt="expertise">
         <div class="expertise__details">
           <h1 class="expertise__title">
-           Depuis 1995, Eurolocation intervient sur le marché des salons et de l'événementiel.
+BWTECH est une entreprise de location d’ordinateur portables qui intervient sur le marché des salons et de l'événementiel.
           </h1>
   
           <hr>
           <p>
-              Nous sommes fiers d'avoir su fidéliser, dans un contexte concurrentiel, une clientèle exigeante qui nous appelle pour notre
-               gamme de produits de pointe et la compétence de nos équipes.
+              Nous sommes fiers d'avoir su fidéliser, dans un contexte concurrentiel, une clientèle exigeante qui nous appelle pour notre gamme de produits de pointe et la compétence de nos équipes. 
           </p>
           <ul class="expertise__list">
             <li class="expertise__list--items">
-                À partir de nos deux agences situées à Paris et à Nice, les équipes 
-                d'Eurolocation se déploient activement sur la quasi totalité des salons 
-                français et accompagnent les clients dans la gestion de leurs événements nationaux et européens.
+               À partir de notre agence située à Temara, l’équipes BWTECH  se déploient activement sur la quasi-totalité des salons Marocains et accompagnent les clients dans la gestion de leurs événements nationaux. 
             </li>
 
          
@@ -28,7 +25,7 @@
       </section>
       
          <section class="ourexperts ourknowhow container">
-        <img class="expertise__image" src="productimage/installation_evenement.jpg" alt="expertise">
+        <img class="expertise__image" src="productimage/qui2.jpeg" alt="expertise">
         <div class="ourknowhow__list">
           <h3 class="expertise__title">Nos savoir-faire</h3>
           <hr>
