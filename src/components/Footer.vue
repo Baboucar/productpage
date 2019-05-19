@@ -21,28 +21,28 @@ Du Lundi au Vendredi:8H – 18h
     
 </div>
 
-  <form class="form container" action="">
+  <form class="form container"  action="https://formspree.io/syllaharouna740@gmail.com" method="POST">
   <h2 class="form__title ">Contact</h2>
    <div class="form__input">
-   <input type="text" name="" placeholder="Nom" id="">
+   <input type="text" name="nom" placeholder="Nom" id="">
    </div>
 
    <div class="form__input">
-   <input type="text" name="" placeholder="Societe" id="">
+   <input type="text" name="societe" placeholder="Societe" id="">
    </div>
    
    <div class="form__input">
      <label for="telephone">Phone</label>
-   <input type="text" name="" placeholder="Votre Telephone" id="telephone" required>
+   <input type="text" name="telephone" placeholder="Votre Telephone" id="telephone" required>
    </div>
 
    <div class="form__input">
    <label for="email">Email</label>
-   <input type="text" name="" placeholder="email" id="email">
+   <input type="text" name="email" placeholder="email" id="email">
    </div>
 
    <div class="form__input">
-   <textarea name="" id="" cols="30" rows="10" placeholder="Votre Message"></textarea>
+   <textarea name="message" id="" cols="30" rows="10" placeholder="Votre Message"></textarea>
    </div>
    <div class="form__input">
    <input type="submit" value="Submit">

@@ -3,7 +3,7 @@
     <Navigation/>
     <div class="container">
         <h1>Demander un devis</h1>
-        <form action="">
+        <form action=" action="https://formspree.io/syllaharouna740@gmail.com" method="POST">
            <div class="flex__input"> 
                <label for="informatique">Informatique</label>
                <input type="checkbox" name="informatique" id="informatique">
@@ -11,7 +11,7 @@
 
            <div class="flex__input">
                <label for="photocopie">Impression - Numérisation - Photocopie</label>
-               <input type="checkbox" name="" id="">
+               <input type="checkbox" name="photocopie" id="">
            </div>
 
 
@@ -25,7 +25,7 @@
 
             <div class="flex__input">
                 <label for="">Assistance</label>
-                <input type="checkbox">
+                <input type="checkbox" name="assistance">
             </div>
 
            
@@ -35,33 +35,33 @@
                 <label for="">
 Modalités de livraison
  Je viens chercher le matériel en vos locaux</label>
-  <input type="checkbox" name="" id="">
+  <input type="checkbox" name=" matériel en vos locaux" id="">
             </div>
             
             <div class="flex__input">
                 <label for="">Je désire une livraison</label>
-                <input type="checkbox" name="" id="">
+                <input type="checkbox" name="Je désire une livraison" id="">
             </div>
 
             <div>
                 <label class="form__label" for="">Lieu de livraison</label>
-                <input type="text" name="" id="">
+                <input type="text" name="Lieu de livraison" id="">
             </div>
 
             <div>
                 <label class="form__label" for="">Quel est votre projet ?</label>
-                <textarea name="" id="" cols="30" rows="10">
+                <textarea name="project" id="" cols="30" rows="10">
 
                 </textarea>
             </div>
             <div>
                 <label for="" class="form__label">Date de début de l'événement</label>
-                   <input type="date" name="" id="">
+                   <input type="date" name="date de debut" id="">
             </div>
             
             <div>
                 <label class="form__label" for="">Date de fin de l'événement</label>
-                <input type="date" name="" id="">
+                <input type="date" name="date de fin" id="">
             </div>
       <div>
 
@@ -71,23 +71,23 @@ Modalités de livraison
 
         </form>
 
-        <form action="">
+        <form action="https://formspree.io/syllaharouna740@gmail.com">
          <h3>Vos coordonnées</h3>
          <div>
              <label class="form__label">Nom</label>
-               <input type="text" name="" id="">
+               <input type="text" name="nom" id="">
          </div>
          <div>
              <label class="form__label">Telephone</label>
-               <input type="text" name="" id="">
+               <input type="text" name="telephone" id="">
          </div>
          <div>
              <label class="form__label">Email</label>
-               <input type="text" name="" id="">
+               <input type="text" name="email" id="">
          </div>
         <div>
-             <label class="form__label">Email</label>
-               <input type="text" name="" id="">
+             <label class="form__label">Société</label>
+               <input type="text" name="société" id="">
         </div>
 
         <div>
