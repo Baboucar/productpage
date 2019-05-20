@@ -138,7 +138,7 @@ hr{
   display: none;
 }
 .logo__image{
-  width: 100px;
+  width: 70px;
 }
 .menu__button{
     margin-left: auto;
@@ -196,6 +196,10 @@ hr{
    position: fixed;
    right: 4rem;
   }
+
+  .logo__image{
+  width: 100px;
+}
 
  .first__link{
    background:#1a194d;

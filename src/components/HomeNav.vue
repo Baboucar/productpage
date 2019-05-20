@@ -139,7 +139,7 @@ hr{
   display: none;
 }
 .logo__image{
-  width: 200px;
+  width: 70px;
 }
 .menu__button{
     margin-left: auto;
@@ -179,6 +179,9 @@ hr{
 
 @media(min-width: 720px) {
 
+.logo__image{
+  width: 200px;
+}
   .first__link{
    background:#1a194d;
   padding-top: 6rem;
