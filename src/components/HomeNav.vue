@@ -23,32 +23,33 @@
     
          </div>
       </header>
-      <nav class="nav" v-if="seen">
-            <router-link to="/qui" class="first__link links ">Qui sommes-nous?</router-link>
+     <nav class="nav" v-if="seen">
+        
+        <router-link to="/qui" class="first__link links ">Qui sommes-nous?</router-link>
           <button @click="openfirstdropdown" class="dropdownbutton">Prestations de service</button>
           <hr>
            <div class="drop-downcontainer" v-if="visible">
-               <a href="" class="sub__links">Developpement</a>
+              
              
                <a href="" class="sub__links">Livraison et instllation </a>
            </div>
           
            
-         
-            
+       
         
            <button @click="openseconddropdown" class="dropdownbutton">Parc location</button>
           <hr>
            <div class="drop-downcontainer" v-if="visibleLocation">
               
-                  <router-link to="/ordinatures" class="sub__links">Ordinateurs</router-link>
+               <router-link to="/ordinatures" class="sub__links">Ordinateurs</router-link>
                <router-link to="/router" class="sub__links">Reseaux,internet,wifi</router-link>
+               <router-link to="/asscories" class="sub__links">accessoires informatique</router-link>
+            
            </div>
 
          
-           <router-link class="links" to="#" v-scroll-to="'#contact-footer'">Contact</router-link>
-           <router-link to="/demander" class="links">Demander un devis</router-link>
-         
+           <router-link class="links" to="#" v-scroll-to="'#contact-section'">Contact</router-link>
+             <router-link to="/demander" class="links">Demander un devis</router-link>
         
      
    
@@ -160,7 +161,7 @@ hr{
 
 
 }
-.nav a{
+.links{
    display: block;
    text-decoration: none;
    padding: .8rem;
@@ -172,11 +173,16 @@ hr{
 
 }
 
-.nav a:nth-child(1){
-  padding-top: 6rem;
-}
+// .nav a:nth-child(1){
+//   padding-top: 6rem;
+// }
 
 @media(min-width: 720px) {
+
+  .first__link{
+   background:#1a194d;
+  padding-top: 6rem;
+}
   .menu__button{
      font-size: 1.5rem;
       position: fixed;
