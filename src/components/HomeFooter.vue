@@ -45,7 +45,7 @@ Du Lundi au Vendredi:8H – 18h <br>
    <textarea name="" id="" cols="30" rows="10" placeholder="Votre Message"></textarea>
    </div>
    <div class="form__input">
-   <input type="submit" value="Submit">
+   <input type="submit" value="Soumettre">
    </div>
   </form>
       </footer>
