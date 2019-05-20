@@ -41,7 +41,7 @@ import '../assets/card.css';
         computed:{
             search:function(){
                 return this.items.filter((d)=>{
-                   return d.category== "pcportable" || d.category == "pcdebureau";
+                   return   d.category == "accessoiresinformatique";
                 })
             }
         }

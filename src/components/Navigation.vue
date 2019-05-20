@@ -29,7 +29,7 @@
           <button @click="openfirstdropdown" class="dropdownbutton">Prestations de service</button>
           <hr>
            <div class="drop-downcontainer" v-if="visible">
-               <a href="" class="sub__links">Developpement</a>
+              
              
                <a href="" class="sub__links">Livraison et instllation </a>
            </div>
@@ -43,6 +43,7 @@
               
                <router-link to="/ordinatures" class="sub__links">Ordinateurs</router-link>
                <router-link to="/router" class="sub__links">Reseaux,internet,wifi</router-link>
+               <router-link to="/asscories" class="sub__links">accessoires informatique</router-link>
             
            </div>
 
@@ -56,6 +57,10 @@
      
      
       </nav>
+      <div class="subnav">
+         <router-link to="/" class="subnav__links">Accuel>>></router-link>
+         <router-link to="/demander" class="subnav__links">Demander un devis</router-link>
+      </div>
     </div>
 </template>
 
@@ -108,9 +113,17 @@
   align-items: center;
   
 }
+.subnav{
+  background: #f2f2f2;
+}
 
 hr{
   background: #FFFFFF;
+}
+.subnav__links{
+  color: #000000;
+  padding: .5rem;
+  display: inline-block;
 }
 .sub__links{
   display: block;

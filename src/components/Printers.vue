@@ -7,9 +7,9 @@
        <div class="product__card" v-for="(item, index) in search" :key="index">
          <!-- remove the height from the images ! -->
         <img class="card__image" :src="item.image" >
-        <!-- <a href="" class="card__title">{{item.title}}</a>-->
+     
         
-         <!-- <router-link  class="card__title" :to="'/' + item.id">{{item.title}}</router-link> -->
+          <router-link  class="card__title" :to="'/' + item.id">{{item.title}}</router-link> 
          
        
         <div class="card__description">

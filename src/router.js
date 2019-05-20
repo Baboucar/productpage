@@ -11,7 +11,8 @@ import Ordinatures from './components/Ordinatures';
 import Printers from './components/Printers';
 import Photocopy from './components/Photocopy';
 import Routers from './components/Routers';
-import Qui from './components/Qui'
+import Qui from './components/Qui';
+import Asscories from './components/Asscories';
 Vue.use(Router);
 
 const router = new Router({
@@ -37,6 +38,11 @@ const router = new Router({
       path:'/assistance',
       name:'assistance',
       component:Assistance
+       },
+       {
+       path:'/asscories',
+       name:'assistance',
+       component:Asscories
        },
        {
            path:'/',
