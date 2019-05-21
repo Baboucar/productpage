@@ -31,7 +31,8 @@
            <div class="drop-downcontainer" v-if="visible">
               
              
-               <a href="" class="sub__links">Livraison et instllation </a>
+    
+               <router-link to="/instillation"  class="sub__links">Livraison et instllation</router-link>
            </div>
           
            

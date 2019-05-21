@@ -13,6 +13,7 @@ import Photocopy from './components/Photocopy';
 import Routers from './components/Routers';
 import Qui from './components/Qui';
 import Asscories from './components/Asscories';
+import Instillation from './components/Instillation';
 Vue.use(Router);
 
 const router = new Router({
@@ -33,6 +34,11 @@ const router = new Router({
        path:'/informatique',
        name:'informatique',
        component:Informatique
+       },
+       {
+           path:'/instillation',
+           name:'installition',
+           component:Instillation
        },
        {
       path:'/assistance',
