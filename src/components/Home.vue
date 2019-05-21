@@ -12,7 +12,7 @@
          <div class="presentation__card">
              <img class="card__image" src="productimage/louer un pc 2.jpg" alt="">
               <p class="presentation__description">
-                Louer des ordinateurs portables longue <br> et courte duree
+            <router-link to="/informatique">    Louer des ordinateurs portables longue <br> et courte duree</router-link>
               </p>
              
          </div>
