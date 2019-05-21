@@ -42,6 +42,11 @@ Paris, région parisienne et Nord de la France:</h3>
       <h2>Liens utiles</h2>
       <hr>
        <router-link to="/demander">Demander</router-link>
+          <div class="icons">
+<a class="" href="https://www.linkedin.com/company/sogesmi-net/about/?viewAsMember=true"><img  src="../assets/link2.png"
+        alt="linkedin"></a>
+<a class="icons__link" href="https://www.facebook.com/Sogesminet/"><img src="../assets/face2.png"  alt="facebbok" ></a>
+    </div>
     </section>
 </div>
 <Footer/>
@@ -60,12 +65,31 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+ .icons{
+    display: flex;
+   
+   
+    &__link{
+        padding-left: 1rem;
+    }
+}
+.info{
+    background: #f2f2f2;
+    padding: 1rem;
+}
 
 @media (min-width:64rem){
+    .info{
+        margin-left: 0;
+        margin-top: 2rem;
+      
+    }
   .grid__instillation{
       display: grid;
       grid-template-columns: 2fr 1fr;
+  }
+  .container{
+      width: 70%;
   }
 }
 </style>
