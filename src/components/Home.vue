@@ -12,7 +12,7 @@
          <div class="presentation__card">
              <img class="card__image" src="productimage/louer un pc 2.jpg" alt="">
               <p class="presentation__description">
-            <router-link to="/informatique">    Louer des ordinateurs portables longue <br> et courte duree</router-link>
+            <router-link to="/ordinatures">    Louer des ordinateurs portables longue <br> et courte duree</router-link>
               </p>
              
          </div>
@@ -20,7 +20,7 @@
            <div class="presentation__card">
              <img class="card__image" src="productimage/business center copy_0.jpg" alt="">
               <p class="presentation__description">
-                 Louer l'équipement <br> informatique
+                 <router-link to="/informatique"> Louer l'équipement <br> informatique</router-link>
               </p>
              
          </div>
@@ -28,7 +28,7 @@
           <div class="presentation__card">
              <img class="card__image" src="productimage/installation_evenement.jpg" alt="">
               <p class="presentation__description">
-                Livraison et <br> installation
+              <router-link to="/instillation">            Livraison et <br> installation</router-link>
               </p>
              
          </div>
