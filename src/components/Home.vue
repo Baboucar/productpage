@@ -10,25 +10,25 @@
    <div class="presentation__cards container">
          
          <div class="presentation__card">
-             <img class="card__image" src="productimage/scene_reebook_2016.jpg" alt="">
+             <img class="card__image" src="productimage/louer un pc 2.jpg" alt="">
               <p class="presentation__description">
-                  Captation Audio et Vidéo
+                Louer des ordinateurs portables longue <br> et courte duree
               </p>
              
          </div>
 
            <div class="presentation__card">
-             <img class="card__image" src="productimage/scene_reebook_2016.jpg" alt="">
+             <img class="card__image" src="productimage/business center copy_0.jpg" alt="">
               <p class="presentation__description">
-                  Captation Audio et Vidéo
+                 Louer l'équipement <br> informatique
               </p>
              
          </div>
 
           <div class="presentation__card">
-             <img class="card__image" src="productimage/scene_reebook_2016.jpg" alt="">
+             <img class="card__image" src="productimage/installation_evenement.jpg" alt="">
               <p class="presentation__description">
-                  Captation Audio et Vidéo
+                Livraison et <br> installation
               </p>
              
          </div>
