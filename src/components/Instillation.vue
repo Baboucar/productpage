@@ -82,6 +82,7 @@ export default {
     .info{
         margin-left: 0;
         margin-top: 2rem;
+        height: 700px;
       
     }
   .grid__instillation{
