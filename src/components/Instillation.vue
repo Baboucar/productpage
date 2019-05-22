@@ -16,29 +16,26 @@
         <li>Amabilité</li>
         <li>Disponibilité</li>
       </ul>
-         <h3>Eurolocation Informatique couvre non seulement toute la France mais intervient aussi dans l'Europe entière.</h3>
-         <p>
-             Avec nos agences dans le nord et le sud de la France, nous intervenons sur Paris et sa région et les principales métropoles telles que Lille, Nantes, Strasbourg, Nice, Cannes, Monaco, etc.
-Nous nous déplaçons aussi régulièrement sur le continent Européen afin de répondre aux exigences de notre clientèle. 
-         </p>
-         <h3>
-Paris, région parisienne et Nord de la France:</h3>
-<p>
-    Ayant son siège social et son stock principal à Paris, Eurolocation intervient aisément sur des évènements dans la partie nord de l'hexagone. Nos équipes connaissent par coeur le Paris expo Porte de Versailles, Paris Nord Villepinte, le Carrousel du Louvre, le CNIT Paris La Défense et se déplacent régulièrement à Lille Grand Palais, à la Cité des congrès de Nantes, au Strasbourg Convention & Exhibition Centre et au Centre International de Deauville (CID).
-</p>
+        
     </section>
 
     <section class="info container">
     <h2 class="info__title">Infos pratiques</h2>
     <hr>
     <p>
-        Ayant son siège social et son stock principal à Paris, Eurolocation intervient aisément sur des évènements dans la partie nord de l'hexagone. Nos équipes connaissent par coeur le Paris expo Porte de Versailles, Paris Nord Villepinte, le Carrousel du Louvre, le CNIT Paris La Défense et se déplacent régulièrement à Lille Grand Palais, à la Cité des congrès de Nantes, au Strasbourg Convention & Exhibition Centre et au Centre International de Deauville (CID).
+       Ayant son siège social et son stock principal à Temara, BW TECH intervient aisément sur des évènements. 
     </p>
-      
-      <p>
-          Vos données personnelles ne feront pas l'objet de traitement informatique et ne seront utilisées que dans le cadre du présent devis pour pouvoir vous contacter.
-      </p>
+  
+      <ul class="instillation__listing">
+          <li> Conseil sur le matériel nécessaire.</li>
+          <li>Fourniture, livraison et installation en temps et en heure</li>
+          <li>Assistance lors de l'utilisation.</li>
+          <li> Désinstallation et récupération en fin d'évènement</li>
+      </ul>
+<p>
+    Vos données personnelles ne feront pas l'objet de traitement informatique et ne seront utilisées que dans le cadre du présent devis pour pouvoir vous contacter. 
 
+</p>
       <h2>Liens utiles</h2>
       <hr>
        <router-link to="/demander">Demander</router-link>
@@ -72,6 +69,9 @@ export default {
     &__link{
         padding-left: 1rem;
     }
+}
+.instillation__listing{
+    font-weight: bold;
 }
 .info{
     background: #f2f2f2;

@@ -177,6 +177,9 @@ hr{
 // .nav a:nth-child(1){
 //   padding-top: 6rem;
 // }
+.first__link{
+  margin-top: 4rem;
+}
 
 @media(min-width: 720px) {
 
