@@ -1,17 +1,16 @@
 <template>
   <div>
     <Navigation/>
-    <h1 class="expertise__title container">Louer un PC en courte durée</h1>
+    <h1 class="expertise__title container">Louer des ordinateurs  portables en courte et longue durée chez BW TECH Informatique</h1>
 
     <section class="ourexperts container">
-      <img class="expertise__image" src="productimage/louer un pc 3.jpg" alt="expertise">
+      <img class="expertise__image" src="productimage/slider2.jpeg" alt="expertise">
       <div class="expertise__details">
-        <h2 class="expertise__title">Louer un PC en courte durée chez Eurolocation Informatique</h2>
+        <h2 class="expertise__title">Louer un PC en courte durée chez BWTECH Informatique</h2>
 
         <hr>
         <p>
-          Eurolocation Informatique est spécialisé dans la location événementielle (courte durée) de tout le matériel informatique et bureautique.
-          Nous pouvons répondre à des besoins aussi différents que:
+       BW TECH Informatique est spécialisé dans la location événementielle (courte & longue durée) de tout le matériel informatique et bureautique. Nous pouvons répondre à des besoins aussi différents que : 
         </p>
         <ul class="expertise__list">
           <li
@@ -30,19 +29,11 @@
         <h2>Demande de devis</h2>
 
         <hr>
-        <p>Eurolocation Informatique, toujours présent sur les grandes villes de congrès comme Paris, Nice, Cannes, Monaco ou Marseille, mais aussi dans les grands congrès européens, se fera un plaisir de répondre à votre demande de devis.</p>
+        <p>BW TECH informatique, se fera un plaisir de répondre à votre demande de devis.</p>
       </div>
     </section>
 
-    <section class="container pc__links">
-        <ul>
-            <li><router-link to="/demander">Demander un devis</router-link></li> 
-            <li><router-link to="">Louer un Mac en courte duree</router-link></li>
-            <li><router-link to="">Louer un Mac en courte duree</router-link></li>
-            <li><router-link to="">Louer un Mac en courte duree</router-link></li>
-            <li><router-link to="">Louer un Mac en courte duree</router-link></li>
-        </ul>
-    </section>
+    
     <router-link to="/demander" class="btn__devis container">Demander un devis</router-link>
       <div class="icons container">
 <a class="icons__link" href="https://www.linkedin.com/company/sogesmi-net/about/?viewAsMember=true"><img  src="../assets/link2.png"
@@ -73,7 +64,7 @@ export default {
 ul{
     margin-top: 6rem;
 }
-li{
+.li{
     list-style-type: none;
     text-align: center;
     padding-top: 1rem;

@@ -38,15 +38,6 @@
 
   </section>
 
-   <section class="container pc__links">
-        <ul>
-            <li class="li"><router-link to="/demander">Demander un devis</router-link></li> 
-            <li  class="li"><router-link to="">Louer un Mac en courte duree</router-link></li>
-            <li  class="li"><router-link to="">Louer un Mac en courte duree</router-link></li>
-            <li  class="li"><router-link to="">Louer un Mac en courte duree</router-link></li>
-            <li  class="li"><router-link to="">Louer un Mac en courte duree</router-link></li>
-        </ul>
-    </section>
 
      <div class="icons container">
 <a class="icons__link" href="https://www.linkedin.com/company/sogesmi-net/about/?viewAsMember=true"><img  src="../assets/link2.png"

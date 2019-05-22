@@ -3,9 +3,9 @@
   <HomeNav/>
   
    <section class="slider">
-       <!-- <img src="productimage/neuropsychiatrie-congres-2017.jpg" alt=""> -->
+      
        <vue-flux
-   :options="fluxOptions"
+   
    :images="fluxImages"
    :transitions="fluxTransitions"
    ref="slider">
@@ -19,7 +19,7 @@
    <div class="presentation__cards container">
          
          <div class="presentation__card">
-             <img class="card__image" src="productimage/louer un pc 2.jpg" alt="">
+             <img class="card__image" src="productimage/home.png" alt="">
               <p class="presentation__description">
             <router-link to="/pcdetails" class="home__links">Louer des ordinateurs portables longue <br> et courte duree</router-link>
            
@@ -80,7 +80,7 @@ import { VueFlux, FluxPagination, Transitions } from 'vue-flux';
                 fuxOptions:{
                     autoplay:true
                 },
-                fluxImages:['productimage/neuropsychiatrie-congres-2017.jpg','productimage/macbook.jpg'],
+                fluxImages:['productimage/neuropsychiatrie-congres-2017.jpg','productimage/affichage digital copy.jpg','productimage/slider1.jpg'],
                 fluxTransitions:{
                     transitionBook: Transitions.transitionBook
                 }
