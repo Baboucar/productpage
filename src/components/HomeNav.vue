@@ -48,8 +48,9 @@
             
            </div>
 
-         
-           <router-link class="links" to="#" v-scroll-to="'#contact-section'">Contact</router-link>
+          
+          <router-link class="links" to="#" v-scroll-to="'#contact__footer'">Contact</router-link>
+          
              <router-link to="/demander" class="links">Demander un devis</router-link>
         
      

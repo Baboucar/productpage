@@ -1,6 +1,6 @@
 <template>
     <div>
-      <footer class="footer">
+      <footer class="footer" id="contact__footer">
       <div class="footer__logo">
       <img class="footer__logo__image" src="../assets/bw-b-w-logo.png" alt="footer logo">
       </div>

@@ -14,12 +14,32 @@ import Routers from './components/Routers';
 import Qui from './components/Qui';
 import Asscories from './components/Asscories';
 import Instillation from './components/Instillation';
+import InformatiqueDetails from './components/InformatiqueDetails';
+
+import PCDetails from './components/PCDetails';
 Vue.use(Router);
 
 const router = new Router({
   
  mode:'history',
    routes:[
+    {
+        path:'/',
+        name:'home',
+        component:Home
+    },
+
+       {
+           path:'/pcdetails',
+           name:'pcdetails',
+           component:PCDetails
+       },
+       {
+       path:'/informatiquedetails',
+       name:'informatiquedetails',
+       component:InformatiqueDetails
+       },
+
     {
         path: '/expertise',
         name:'expertise',
@@ -47,14 +67,11 @@ const router = new Router({
        },
        {
        path:'/asscories',
-       name:'assistance',
+       name:'asscories',
        component:Asscories
        },
-       {
-           path:'/',
-           name:'home',
-           component:Home
-       },
+      
+     
        {
         path:'/ordinatures',
         name:'ordinatures',
@@ -86,6 +103,7 @@ const router = new Router({
        name:'product',
        component:ProductPage
    },
+   
    {
        path:'/:id',
        name:'productdetails',

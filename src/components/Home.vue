@@ -12,23 +12,25 @@
          <div class="presentation__card">
              <img class="card__image" src="productimage/louer un pc 2.jpg" alt="">
               <p class="presentation__description">
-            <router-link to="/ordinatures">    Louer des ordinateurs portables longue <br> et courte duree</router-link>
+            <router-link to="/pcdetails" class="home__links">Louer des ordinateurs portables longue <br> et courte duree</router-link>
+           
               </p>
+               
              
          </div>
 
            <div class="presentation__card">
              <img class="card__image" src="productimage/business center copy_0.jpg" alt="">
               <p class="presentation__description">
-                 <router-link to="/informatique"> Louer l'équipement <br> informatique</router-link>
+                 <router-link to="/informatiquedetails" class="home__links"> Louer l'équipement <br> informatique</router-link>
               </p>
-             
+            
          </div>
 
           <div class="presentation__card">
              <img class="card__image" src="productimage/installation_evenement.jpg" alt="">
               <p class="presentation__description">
-              <router-link to="/instillation">            Livraison et <br> installation</router-link>
+              <router-link to="/instillation" class="home__links">     Livraison et <br> installation</router-link>
               </p>
              
          </div>
@@ -38,38 +40,16 @@
     </div>  
 
     </section>
-     <!-- <section class="container parles">
-         <div class="parles__description">
-             <h1 class="parles__title">Ils parlent de nous</h1>
-             <p>
-                 Cher tous,<br>
-
-Juste un petit mot pour vraiment vous remercier. <br>
-
-Merci pour votre professionalisme, votre disponibilité, parfois même votre patience et votre <br>
- bonne humeur à toute épreuve. <br>
-
-Nous n'avons pas eu le débriefe client, mais les équipes de Lever de Rideau sont ravies.
-
-             </p>
-
-
-             <a href="http://" class="btn">VOIR TOUT</a>
-         </div>
-         <img class="parles__image" src="productimage/image.png" alt="">
-
-     </section> -->
-     <v-content>
-     <HomeFooter id="contact-footer"/>
-     </v-content>
+    
+     <HomeFooter/>
+    
     </div>
 </template>
 
 <script>
 import HomeNav from '../components/HomeNav';
 import HomeFooter from '../components/HomeFooter';
-import Slick from 'vue-slick';
- import $ from 'jquery';
+
 
 
 
@@ -83,56 +63,7 @@ import Slick from 'vue-slick';
             HomeFooter,
             
 
-        },
-        data(){
-            return{
-                slickOptions:{
-                    slickOptions:3,
-                }
-            }
-        },
-       
-       mounted: function() {
-           $(document).ready(function(){
-       $('.responsive').slick({
-  dots: true,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 4,
-   autoplay: true,
-  slidesToScroll: 4,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-	})			
-    } 
-    
+        } 	
     }
 
     
@@ -140,6 +71,10 @@ import Slick from 'vue-slick';
 
 <style lang="scss" scoped>
 
+.home__links{
+    font-weight: bold;
+    color: #3f51b5;
+}
   .parles{
       width: 90%;
       margin: 0 auto;
