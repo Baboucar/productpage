@@ -1,8 +1,17 @@
 <template>
     <div>
   <HomeNav/>
+  
    <section class="slider">
-       <img src="productimage/neuropsychiatrie-congres-2017.jpg" alt="">
+       <!-- <img src="productimage/neuropsychiatrie-congres-2017.jpg" alt=""> -->
+       <vue-flux
+   :options="fluxOptions"
+   :images="fluxImages"
+   :transitions="fluxTransitions"
+   ref="slider">
+      <flux-pagination slot="pagination"></flux-pagination>
+</vue-flux>
+
    </section>
     <section class="prestations">
         <h1 class="prestations__title center__text">NOS PRESTATIONS</h1>
@@ -49,7 +58,7 @@
 <script>
 import HomeNav from '../components/HomeNav';
 import HomeFooter from '../components/HomeFooter';
-
+import { VueFlux, FluxPagination, Transitions } from 'vue-flux';
 
 
 
@@ -61,9 +70,22 @@ import HomeFooter from '../components/HomeFooter';
         components:{
             HomeNav,
             HomeFooter,
+            VueFlux,
+            FluxPagination
             
 
-        } 	
+        } ,
+        data(){
+            return{
+                fuxOptions:{
+                    autoplay:true
+                },
+                fluxImages:['productimage/neuropsychiatrie-congres-2017.jpg','productimage/slider1.jpg'],
+                fluxTransitions:{
+                    transitionBook: Transitions.transitionBook
+                }
+            }
+        }
     }
 
     

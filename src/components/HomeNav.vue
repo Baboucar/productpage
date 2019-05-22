@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="navigation">
       <header>
         
        
@@ -110,6 +110,8 @@
   width: 100%;
   padding: 1rem 2rem;
   align-items: center;
+  z-index: 100;
+
   
 }
 hr{
@@ -149,7 +151,7 @@ hr{
      color: #FFFFFF;
      cursor: pointer;
      position: relative;
-     z-index: 1;
+     z-index: 100;
 }
 
 .nav{
@@ -160,6 +162,8 @@ hr{
   transition: all .5s;
   height: 100%;
   background:#1a194dd4;
+  z-index: 50;
+  
 
 
 }
@@ -195,6 +199,7 @@ hr{
      font-size: 1.5rem;
       position: fixed;
    right: 4rem;
+   z-index: 100;
   }
 
 .header__nav{
