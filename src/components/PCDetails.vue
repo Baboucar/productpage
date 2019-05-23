@@ -1,12 +1,12 @@
 <template>
   <div>
     <Navigation/>
-    <h1 class="expertise__title container">Louer des ordinateurs  portables en courte et longue </h1>
+    <h1 class=" title container">Louer des ordinateurs  portables en courte et longue </h1>
 
     <section class="ourexperts container">
       <img class="expertise__image" src="productimage/slider2.jpeg" alt="expertise">
       <div class="expertise__details">
-        <h2 class="expertise__title">Louer des ordinateurs portables en courte et longue durée chez BW TECH Informatique</h2>
+        <h1 class="title" >Louer des ordinateurs portables en courte et longue durée chez BW TECH Informatique</h1>
 
         <hr>
         <p>
@@ -82,6 +82,9 @@ li a{
   }
 }
 @media(min-width: 64rem){
+    .title{
+        padding: 2rem 0;
+    }
      a{
          font-size: 1.2rem;
      }

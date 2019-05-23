@@ -7,12 +7,12 @@
         <img src="productimage/business center copy_1.jpg" alt="info">
 
         <div class="info__details">
-          <p>Vous vous trouvez face à un imprévu en termes de <router-link class="links" to="/photocopy">photocopies</router-link>, d'impression, de numérisation de documents : nous proposons à la location des équipements à usage bureautique dans un cadre professionnel. Nous sommes si réactifs que, selon votre localisation, vous pourrez utiliser le matériel à peine deux heures après votre commande.</p>
+          <p>Vous vous trouvez face à un imprévu en termes de photocopies, d'impression, de numérisation de documents : nous proposons à la location des équipements à usage bureautique dans un cadre professionnel. Nous sommes si réactifs que, selon votre localisation, vous pourrez utiliser le matériel à peine deux heures après votre commande.</p>
           <p>Autre cas de figure : vous êtes en prestation loin de vos bureaux et ne pouvez pas vous déplacer avec tout votre matériel informatique et bureautique, nous vous fournissons :</p>
           <ul>
             <li
               class="info__list"
-            >Ordinateurs  portables, <router-link to="/printers" class="links">imprimantes </router-link>, <router-link to="/photocopy" class="links">photocopies</router-link> ,<router-link to="/product" class="links"> scanners</router-link> et <router-link to="/product" class="links">accessoires</router-link></li>
+            >Ordinateurs  portables, imprimantes , photocopieuses , scanners et accessoires</li>
             <li class="info__list">Installation et mise en réseau filaire ou WiFi du matériel</li>
             <li
               class="info__list"
@@ -59,13 +59,9 @@ export default {
   box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px,
     rgba(0, 0, 0, 0.117647) 0px 1px 4px;
 }
-.pc__links{
+.pc__links {
   background: #3f51b5;
 }
-.links{
-    color: #3f51b5;
-}
-
 .ul {
   margin-top: 6rem;
 }
