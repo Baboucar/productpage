@@ -1,12 +1,12 @@
 <template>
   <div>
     <Navigation/>
-    <h1 class="expertise__title container">Louer des ordinateurs  portables en courte et longue durée chez BW TECH Informatique</h1>
+    <h1 class="expertise__title container">Louer des ordinateurs  portables en courte et longue </h1>
 
     <section class="ourexperts container">
       <img class="expertise__image" src="productimage/slider2.jpeg" alt="expertise">
       <div class="expertise__details">
-        <h2 class="expertise__title">Louer un PC en courte durée chez BWTECH Informatique</h2>
+        <h2 class="expertise__title">Louer des ordinateurs portables en courte et longue durée chez BW TECH Informatique</h2>
 
         <hr>
         <p>
@@ -22,7 +22,7 @@
           <li class="expertise__list">Un stand sur une exposition.</li>
         </ul>
 
-        <p>Nous fournissons ordinateurs, écrans, portables, imprimantes A3 et A4, photocopieurs avec ou sans trieuse, fax, destructeurs de documents, téléphones, polycoms.</p>
+        <p>Nous fournissons des ordinateurs portables, imprimantes, photocopieurs avec ou sans trieuse, accessoires informatiques.</p>
 
         <p>Nous les livrons, les installons, les mettons en réseau à votre convenance.</p>
         <p>Nous proposons aussi l'assistance technique lors de votre événement.</p>
@@ -61,7 +61,7 @@ export default {
     background: #3f51b5;
     
 }
-ul{
+.ul{
     margin-top: 6rem;
 }
 .li{
