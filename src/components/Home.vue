@@ -80,7 +80,7 @@ import { VueFlux, FluxPagination, Transitions } from 'vue-flux';
                 fuxOptions:{
                     autoplay:true
                 },
-                fluxImages:['productimage/neuropsychiatrie-congres-2017.jpg','productimage/affichage digital copy.jpg','productimage/slider1.jpg'],
+                fluxImages:['productimage/1.jpeg','productimage/2.jpeg','productimage/3.jpeg','productimage/4.jpeg'],
                 fluxTransitions:{
                     transitionBook: Transitions.transitionBook
                 }
