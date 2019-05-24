@@ -215,11 +215,15 @@ hr{
      color: #FFFFFF;
      text-decoration: none;
      padding-left: 2rem;
+     background: #1a194d;
+     padding: 1rem;
+     margin-left: 2rem;
      &:hover{
-       background: #1a194d;
+       background: #FFFFFF;
        padding: 1rem;
-       transition: all ease .5s;
+       transition: all  .5s;
        border: 5px;
+       color: #1a194d;
        margin-left: 2rem;
        
      }
