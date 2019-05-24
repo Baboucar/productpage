@@ -186,7 +186,7 @@ hr{
   margin-top: 4rem;
 }
 
-@media(min-width: 720px) {
+@media(min-width: 64rem) {
 
 .logo__image{
   width: 200px;

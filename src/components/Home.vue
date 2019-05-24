@@ -139,6 +139,7 @@ import { VueFlux, FluxPagination, Transitions } from 'vue-flux';
     padding: .7rem 2.5rem;
     }
 
+
     @media(min-width:768px){
         .presentation__cards{
             grid-gap: 2rem;
