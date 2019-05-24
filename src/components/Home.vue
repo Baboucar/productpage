@@ -138,6 +138,12 @@ import { VueFlux, FluxPagination, Transitions } from 'vue-flux';
     margin-top: 2rem;
     padding: .7rem 2.5rem;
     }
+
+    @media(min-width:768px){
+        .presentation__cards{
+            grid-gap: 2rem;
+        }
+    }
 @media(min-width:64rem){
     .prestations{
         &__title{
