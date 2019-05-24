@@ -2,7 +2,7 @@
   <div>
   <Navigation/>
     <div class="expertise container">
-      <h2 class="expertise__title">Eurolocation Expert en Logistique Evénementielle.</h2>
+      <h2 class="expertise__title">BWTECH Expert en Logistique Evénementielle.</h2>
       <section class="ourexperts">
         <img class="expertise__image" src="productimage/expertise-1.jpeg" alt="expertise">
         <div class="expertise__details">
@@ -24,7 +24,7 @@
         </div>
       </section>
       <section class="ourexperts ourknowhow">
-        <img class="expertise__image" src="productimage/expertise-2.jpeg" alt="expertise">
+        <img class="expertise__image second__image" src="productimage/laptop.jpeg" alt="expertise">
         <div class="ourknowhow__list">
           <h3 class="expertise__title">Nos savoir-faire</h3>
           <hr>
@@ -123,6 +123,9 @@ hr {
 @media (min-width: 64rem) {
     .goodarea{
         width: 50%;
+    }
+    .second__image{
+      height: 700px;
     }
   .expertise {
     &__title {
