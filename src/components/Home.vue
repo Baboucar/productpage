@@ -5,7 +5,7 @@
    <section class="slider">
       
        <vue-flux
-   
+     :options="fuxOptions"
    :images="fluxImages"
    :transitions="fluxTransitions"
    ref="slider">
