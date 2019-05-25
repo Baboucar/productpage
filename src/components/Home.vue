@@ -80,7 +80,7 @@ import { VueFlux, FluxPagination, Transitions } from 'vue-flux';
                 fuxOptions:{
                     autoplay:true
                 },
-                fluxImages:['productimage/1.jpeg','productimage/2.jpeg','productimage/3.jpeg','productimage/4.jpeg'],
+                fluxImages:['productimage/s1.jpeg','productimage/s2.jpeg','productimage/s3.jpeg','productimage/s4.jpeg'],
                 fluxTransitions:{
                     transitionBook: Transitions.transitionBook
                 }
