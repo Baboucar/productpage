@@ -34,8 +34,8 @@
         <h2 class="title">Liens utiles</h2>
         <hr>
         <p>
-          -Demander un devis
-          <br>-Louer un grand ecran
+          <router-link to="/demander"> -Demander un devis</router-link>
+          
         </p>
 
         <div class="icons">
@@ -103,11 +103,11 @@ hr {
 }
 
 .icons {
-  display: flex;
+display: flex;
 
-  &__link {
-    padding-left: 1rem;
-  }
+&__link {
+padding-left: 1rem;
+}
 }
 
 .thumbnail__list {
