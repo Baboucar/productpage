@@ -45,6 +45,7 @@
                <router-link to="/ordinatures" class="sub__links">Ordinateurs</router-link>
                <router-link to="/router" class="sub__links">Reseaux,internet,wifi</router-link>
                <router-link to="/asscories" class="sub__links">accessoires informatique</router-link>
+               <router-link to="/printers" class="sub__links">Impression, Numérisation, Télecopie</router-link>
             
            </div>
 

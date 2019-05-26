@@ -9,10 +9,10 @@
                  <p>L'équipement informatique est un vaste sujet puisqu'il comporte aussi bien</p>
              <ul>
                  <v-content>
-                 <li><router-link to="/ordinatures">les ordinateurs portables</router-link></li>
+                 <li><router-link to="/ordinatures" class="nav__links">les ordinateurs portables</router-link></li>
                  </v-content>
-                 <li>les <router-link to="/printers">imprimantes</router-link>, <router-link to="">scanners</router-link>, <router-link to="/photocopy">photocopieurs</router-link>, mais aussi toute la partie</li>
-                 <li><router-link to="/router">réseau et internet.</router-link></li>
+                 <li>les <router-link to="/printers" class="nav__links">imprimantes</router-link>, <router-link to="/scanner" class="nav__links">scanners</router-link>, <router-link to="/photocopy" class="nav__links">photocopieurs</router-link>, mais aussi toute la partie</li>
+                 <li><router-link to="/router" class="nav__links">réseau et internet.</router-link></li>
                  <li>Et cette liste n'est pas exhaustive! </li>
              </ul>
 
@@ -45,7 +45,12 @@ import Footer from '../components/Footer';
 
 <style lang="scss" scoped>
 
-
+.nav__links{
+    color: #3f51b5;
+         text-decoration: none;
+         font-weight: bold;
+         font-size: 1.2rem;
+}
 @media(min-width: 64rem){
  .informatique{
       &__title{

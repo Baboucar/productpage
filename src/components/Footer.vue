@@ -32,12 +32,12 @@ Du Lundi au Vendredi:8H – 18h
    </div>
    
    <div class="form__input">
-     <label for="telephone">Phone</label>
+     <label for="telephone">Phone <span class="require">*</span></label>
    <input type="text" name="telephone" placeholder="Votre Telephone" id="telephone" required>
    </div>
 
    <div class="form__input">
-   <label for="email">Email</label>
+   <label for="email">Email <span class="require">*</span></label>
    <input type="text" name="email" placeholder="email" id="email">
    </div>
 
@@ -59,6 +59,9 @@ Du Lundi au Vendredi:8H – 18h
 </script>
 
 <style lang="scss" scoped>
+.require{
+    color: red;
+}
 .footer{
     background: #1a194d;
 

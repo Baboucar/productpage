@@ -143,6 +143,7 @@ hr {
     &__image {
       margin: 3rem 0;
       width: 50%;
+      height: 600px;
     }
   }
   .ourexperts {

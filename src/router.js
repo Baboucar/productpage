@@ -9,6 +9,7 @@ import Demander from './components/Demander';
 import Home from './components/Home';
 import Ordinatures from './components/Ordinatures';
 import Printers from './components/Printers';
+import Scanner from './components/Scanner';
 import Photocopy from './components/Photocopy';
 import Routers from './components/Routers';
 import Qui from './components/Qui';
@@ -33,6 +34,11 @@ const router = new Router({
            path:'/pcdetails',
            name:'pcdetails',
            component:PCDetails
+       },
+       {
+        path:'/scanner',
+        name:'scanner',
+        component:Scanner
        },
        {
        path:'/informatiquedetails',

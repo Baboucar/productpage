@@ -42,7 +42,7 @@ import '../assets/card.css';
         computed:{
             search:function(){
                 return this.items.filter((d)=>{
-                   return d.category== "routeurs"  || d.category == "switch" || d.type=="router";
+                   return d.type== "scanner";
                 })
             }
         }
