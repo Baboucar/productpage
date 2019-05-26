@@ -83,6 +83,8 @@
              else{
                document.querySelector(".nav").style.right =  "-2000px"
              }
+
+             
             
          },
          openfirstdropdown(){

@@ -69,5 +69,13 @@ import Footer from '../components/Footer';
 </script>
 
 <style lang="scss" scoped>
+   @media (min-width: 64rem){
 
+  .expertise__image {
+    margin: 3rem 0;
+    width: 50%;
+    height: 600px
+   }
+
+   }
 </style>
