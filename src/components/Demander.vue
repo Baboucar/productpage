@@ -3,7 +3,7 @@
     <Navigation/>
     <div class="container">
       <h1>Demander un devis</h1>
-      <form method="POST" action="https://formspree.io/syllaharouna740@gmail.com">
+      <form method="POST" action="https://formspree.io/bwtech.contact@gmail.com">
         <div class="flex__input">
           <label for="informatique">Informatique</label>
           <input type="checkbox" name="informatique" id="informatique">

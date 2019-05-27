@@ -21,7 +21,7 @@ Du Lundi au Vendredi:8H – 18h
     
 </div>
 
-  <form class="form container"  action="https://formspree.io/syllaharouna740@gmail.com" method="POST">
+  <form class="form container"  action="https://formspree.io/bwtech.contact@gmail.com" method="POST">
   <h2 class="form__title ">Contact</h2>
    <div class="form__input">
    <input type="text" name="nom" placeholder="Nom" id="">

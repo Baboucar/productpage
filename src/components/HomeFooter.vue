@@ -21,7 +21,7 @@ Du Lundi au Vendredi:8H – 18h <br>
     
 </div>
 
-  <form class="form container" action="">
+  <form class="form container" method="POST" action="https://formspree.io/bwtech.contact@gmail.com">
   <h2 class="form__title ">Contact</h2>
    <div class="form__input">
    <input type="text" name="" placeholder="Nom" id="">
