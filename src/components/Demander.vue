@@ -80,9 +80,9 @@
         </div>
       </form>
     </div>
-    <v-content>
+   
       <Footer id="contact-section"/>
-    </v-content>
+   
   </div>
 </template>
 

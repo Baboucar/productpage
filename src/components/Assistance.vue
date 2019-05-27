@@ -40,9 +40,9 @@
         </div>
       </div>
     </section>
- <v-content>
+
     <Footer id="contact-section"/>
-    </v-content>
+  
   </div>
 </template>
 

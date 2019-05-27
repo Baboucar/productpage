@@ -24,9 +24,9 @@
      </section>
 
          <router-link to="/demander" class="btn__devis container">Demander un devis</router-link>
-  <v-content>
+
     <Footer id="contact-section"/>
-    </v-content>
+  
     </div>
 </template>
 

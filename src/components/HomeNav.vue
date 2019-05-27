@@ -190,7 +190,7 @@ hr{
 @media(min-width: 64rem) {
 
 .logo__image{
-  width: 100px;
+  width: 120px;
 }
   .first__link{
    background:#1a194d;
