@@ -13,7 +13,7 @@
             <li
               class="info__list"
             ><router-link to="/ordinatures" class="nav__links">Ordinateurs portables</router-link>, <router-link to="/printers" class="nav__links">imprimantes </router-link>, <router-link to="/router" class="nav__links">router</router-link> , <router-link to="/scanner" class="nav__links"> scanners</router-link> et <router-link to="/asscories" class="nav__links">accessoires</router-link></li>
-            <li class="info__list">Installation et mise en réseau filaire ou WiFi du matériel</li>
+            <li class="info__list">Installation et mise en <span class="bold__text">réseau filaire</span> ou <span class="bold__text"> WiFi</span> du matériel</li>
             <li
               class="info__list"
             >     L'assistance technique en la personne d'un spécialiste présent sur toute la durée de votre événement pour assurer le bon fonctionnement des installations ainsi qu'une intervention rapide en cas de problèmes. 
@@ -58,6 +58,9 @@ export default {
   padding: 1rem;
   box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px,
     rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+}
+.bold__text{
+  font-weight: bold;
 }
 .pc__links {
   background: #3f51b5;
