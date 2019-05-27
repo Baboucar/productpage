@@ -7,7 +7,7 @@
         <img class="expertise__image" src="productimage/qui.jpeg" alt="expertise">
         <div class="expertise__details">
           <h1 class="expertise__title">
-BWTECH est une entreprise de location d’ordinateur portables qui intervient sur le marché des salons et de l'événementiel.
+BW TECH est une entreprise de location d’ordinateur portables qui intervient sur le marché des salons et de l'événementiel.
           </h1>
   
           <hr>
