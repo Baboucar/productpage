@@ -15,6 +15,7 @@ import Routers from './components/Routers';
 import Qui from './components/Qui';
 import Asscories from './components/Asscories';
 import Instillation from './components/Instillation';
+import Impressions from './components/Impressions';
 import InformatiqueDetails from './components/InformatiqueDetails';
 
 import PCDetails from './components/PCDetails';
@@ -82,6 +83,11 @@ const router = new Router({
         path:'/ordinatures',
         name:'ordinatures',
         component:Ordinatures
+       },
+       {
+       path:'/impressions',
+       name:'impressions',
+       component:Impressions
        },
        {
        path:'/printers',

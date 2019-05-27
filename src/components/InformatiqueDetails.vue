@@ -12,11 +12,11 @@
           <ul>
             <li
               class="info__list"
-            >Ordinateurs  portables, imprimantes , photocopieuses , scanners et accessoires</li>
+            ><router-link to="/ordinatures" class="nav__links">Ordinateurs portables</router-link>, <router-link to="/printers" class="nav__links">imprimantes </router-link>, <router-link to="/router" class="nav__links">router</router-link> , <router-link to="/scanner" class="nav__links"> scanners</router-link> et <router-link to="/asscories" class="nav__links">accessoires</router-link></li>
             <li class="info__list">Installation et mise en réseau filaire ou WiFi du matériel</li>
             <li
               class="info__list"
-            >    • L'assistance technique en la personne d'un spécialiste présent sur toute la durée de votre événement pour assurer le bon fonctionnement des installations ainsi qu'une intervention rapide en cas de problèmes. 
+            >     L'assistance technique en la personne d'un spécialiste présent sur toute la durée de votre événement pour assurer le bon fonctionnement des installations ainsi qu'une intervention rapide en cas de problèmes. 
 </li>
           </ul>
 
@@ -89,6 +89,13 @@ li a {
     padding-left: 1rem;
     margin-top: 1rem;
   }
+}
+
+.nav__links{
+    color: #3f51b5;
+         text-decoration: none;
+         font-weight: bold;
+         font-size: 1.2rem;
 }
 @media (min-width: 64rem) {
   .container {

@@ -8,7 +8,7 @@
      <div class="footer__address container">
         <h3 class="">Contact</h3>
         <p class="">
-1135 Hay,Massira 1 - Temara - Marco<br>
+1135 Hay,Massira 1 - Temara - Maroc<br>
 Tél:+2123756 10 39/037 56 13 08  <br>
 Heure de fonctionnement <br>
 Du Lundi au Vendredi:8H – 18h

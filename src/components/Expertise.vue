@@ -24,7 +24,7 @@
         </div>
       </section>
       <section class="ourexperts ourknowhow">
-        <img class="expertise__image second__image" src="productimage/laptop.jpeg" alt="expertise">
+        <img class="expertise__image second__image" src="productimage/info.jpeg" alt="expertise">
         <div class="ourknowhow__list">
           <h3 class="expertise__title">Nos savoir-faire</h3>
           <hr>

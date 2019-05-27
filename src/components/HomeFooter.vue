@@ -8,7 +8,7 @@
      <div class="footer__address container">
         <h3 class="">Contact</h3>
         <p class="">
-1135 Hay,Massira 1 - Temara - Marco<br>
+1135 Hay,Massira 1 - Temara - Maroc<br>
 Tél:+21237 56 10 39/037 56 13 08  <br>
 Heure de fonctionnement <br>
 Du Lundi au Vendredi:8H – 18h <br>
@@ -32,12 +32,12 @@ Du Lundi au Vendredi:8H – 18h <br>
    </div>
    
    <div class="form__input">
-     <label for="telephone">Phone</label>
+     <label for="telephone" >Phone <span class="red">*</span></label>
    <input type="text" name="" placeholder="Votre Telephone" id="telephone" required>
    </div>
 
    <div class="form__input">
-   <label for="email">Email</label>
+   <label for="email">Email <span class="red">*</span></label>
    <input type="text" name="" placeholder="email" id="email">
    </div>
 
@@ -74,6 +74,9 @@ Du Lundi au Vendredi:8H – 18h <br>
         width: 200px;
        }
     }
+}
+.red{
+    color: red;
 }
 input[type="text"],textarea{
     width: 100%;

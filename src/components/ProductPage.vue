@@ -9,7 +9,7 @@
     Vous avez besoin d'ordinateurs pour une formation que vous allez bientôt dispenser. Il vous faut plusieurs portables ainsi qu'une imprimante pour vous et vos collaborateurs pour <br> une conférence au sommet ? PC, portables,  imprimantes... vous trouverez tout ce qu'il vous faut ici !
     </p>
     <p class="product__description">
-    Un parc matériel adapté à l'événementiel a savoir : l'informatique, la bureautique, l'affichage digital. <br>
+    Un parc matériel adapté à l'événementiel à savoir : l'informatique, la bureautique, l'affichage digital. <br>
 <strong>Tous les produits ne sont pas sur le site. N'hésitez pas à nous faire savoir vos besoins particuliers </strong>. 
     </p>
      </div>
@@ -80,9 +80,9 @@
 
      </div>
     </div>
-    <v-content>
+   
     <Footer id="contact-section"/>
-    </v-content>
+   
 
     </div>
 </template>
