@@ -112,7 +112,7 @@
 
 .header{
   display: flex;
-  background:#3f51b5; 
+  background:#1a194d; 
   padding: 1rem 2rem;
   align-items: center;
   
@@ -160,7 +160,7 @@ hr{
   right: -2000px;
   transition: all .5s;
   height: 100%;
-     background:#1a194dd4;
+     background:#1a194d;
 
 
 }
@@ -225,7 +225,7 @@ hr{
      text-decoration: none;
      padding-left: 2rem;
      &:hover{
-       background: #1a194d;
+       background: #3f51b5;
        padding: 1rem;
        transition: all ease .5s;
        border: 5px;
@@ -249,7 +249,7 @@ hr{
 
 }
   .nav{
-    width: 25rem;
+    width: 35rem;
   }
 }
 </style>

@@ -2,7 +2,7 @@
   <div>
     <Navigation/>
     <section class="container">
-      <h2 class="assistance__title">BWTECH développement et assistance</h2>
+      <h2 class="assistance__title">BW TECH développement et assistance</h2>
       <div class="assistance__grid">
         <img src="productimage/assistance.jpg" alt="assistance">
         <div class="assistance__description">

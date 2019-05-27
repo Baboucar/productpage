@@ -245,7 +245,7 @@ hr{
 
 }
   .nav{
-    width: 25rem;
+    width: 35rem;
   }
 }
 </style>

@@ -2,7 +2,7 @@
   <div>
   <Navigation/>
     <div class="expertise container">
-      <h2 class="expertise__title">BWTECH Expert en Logistique Evénementielle.</h2>
+      <h2 class="expertise__title">BW TECH Expert en Logistique Evénementielle.</h2>
       <section class="ourexperts">
         <img class="expertise__image" src="productimage/expertise-1.jpeg" alt="expertise">
         <div class="expertise__details">
@@ -66,9 +66,9 @@
       </section>
     </div>
              <router-link to="/demander" class="btn__devis container">Demander un devis</router-link>
-<v-content>
+
     <Footer id="contact-section"/>
-    </v-content>
+  
   </div>
 </template>
 
