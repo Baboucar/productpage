@@ -9,7 +9,7 @@
                  <p>L'équipement informatique est un vaste sujet puisqu'il comporte aussi bien</p>
              <ul>
                  <v-content>
-                 <li><router-link to="/ordinatures" class="nav__links">les ordinateurs portables</router-link></li>
+                 <li>les<router-link to="/ordinatures" class="nav__links"> ordinateurs portables</router-link></li>
                  </v-content>
                  <li>les <router-link to="/printers" class="nav__links">imprimantes</router-link>, <router-link to="/scanner" class="nav__links">scanners</router-link>, <router-link to="/photocopy" class="nav__links">photocopieurs</router-link>, mais aussi toute la partie</li>
                  <li><router-link to="/router" class="nav__links">réseau et internet.</router-link></li>

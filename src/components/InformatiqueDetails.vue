@@ -10,14 +10,23 @@
           <p>Vous vous trouvez face à un imprévu en termes de photocopies, d'impression, de numérisation de documents : nous proposons à la location des équipements à usage bureautique dans un cadre professionnel. Nous sommes si réactifs que, selon votre localisation, vous pourrez utiliser le matériel à peine deux heures après votre commande.</p>
           <p>Autre cas de figure : vous êtes en prestation loin de vos bureaux et ne pouvez pas vous déplacer avec tout votre matériel informatique et bureautique, nous vous fournissons :</p>
           <ul>
+            <li class="info__list">
+              <router-link to="/ordinatures" class="nav__links">Ordinateurs portables</router-link>,
+              <router-link to="/printers" class="nav__links">imprimantes</router-link>,
+              <router-link to="/scanner" class="nav__links">scanners</router-link>,
+              <router-link to="/asscories" class="nav__links">accessoires</router-link>
+              <router-link to="/photocopy" class="nav__links">et photocopieurs</router-link>
+            </li>
+            <li class="info__list">
+              Installation et mise en
+              <span class="bold__text">
+                <router-link to="/router" class="nav__links">réseau</router-link>filaire
+              </span> ou
+              <span class="bold__text">WiFi</span> du matériel
+            </li>
             <li
               class="info__list"
-            ><router-link to="/ordinatures" class="nav__links">Ordinateurs portables</router-link>, <router-link to="/printers" class="nav__links">imprimantes </router-link>, <router-link to="/scanner" class="nav__links"> scanners</router-link> et <router-link to="/asscories" class="nav__links">accessoires</router-link></li>
-            <li class="info__list">Installation et mise en <span class="bold__text"><router-link to="/router" class="nav__links">réseau</router-link> filaire</span> ou <span class="bold__text"> WiFi</span> du matériel</li>
-            <li
-              class="info__list"
-            >     L'assistance technique en la personne d'un spécialiste présent sur toute la durée de votre événement pour assurer le bon fonctionnement des installations ainsi qu'une intervention rapide en cas de problèmes. 
-</li>
+            >L'assistance technique en la personne d'un spécialiste présent sur toute la durée de votre événement pour assurer le bon fonctionnement des installations ainsi qu'une intervention rapide en cas de problèmes.</li>
           </ul>
 
           <h2>Demande de devis</h2>
@@ -59,7 +68,7 @@ export default {
   box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px,
     rgba(0, 0, 0, 0.117647) 0px 1px 4px;
 }
-.bold__text{
+.bold__text {
   font-weight: bold;
 }
 .pc__links {
@@ -94,11 +103,11 @@ li a {
   }
 }
 
-.nav__links{
-    color: #3f51b5;
-         text-decoration: none;
-         font-weight: bold;
-         font-size: 1.2rem;
+.nav__links {
+  color: #3f51b5;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 @media (min-width: 64rem) {
   .container {

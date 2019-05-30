@@ -4,7 +4,7 @@
     <div class="grid__instillation">
     <section class="instillation container">
       <h2 class="instillation__title">Livraison et installation</h2>
-      <img src="productimage/installation_evenement.jpg" alt="public">
+      <img src="productimage/test.jpeg" alt="public">
       <p>
         Nos équipes techniques se chargent de la livraison, de l'installation
         et de la mise en marche du matériel ainsi que de sa reprise à l'issue de
