@@ -37,9 +37,9 @@
          </div>
 
           <div class="presentation__card">
-             <img class="card__image" src="productimage/installation_evenement.jpg" alt="">
+             <img class="card__image" src="productimage/test.jpeg" alt="">
               <p class="presentation__description">
-              <router-link to="/instillation" class="home__links">     Livraison et <br> installation</router-link>
+              <router-link to="/instillation" class="home__links last__link">     Livraison et <br> installation</router-link>
               </p>
              
          </div>
@@ -96,6 +96,9 @@ import { VueFlux, FluxPagination, Transitions } from 'vue-flux';
 .home__links{
     font-weight: bold;
     color: #3f51b5;
+}
+.presentation__cards{
+    margin-bottom: 2rem;
 }
   .parles{
       width: 90%;
@@ -173,6 +176,10 @@ import { VueFlux, FluxPagination, Transitions } from 'vue-flux';
             width: 100%;
         }
 
+    }
+    .last__link{
+            display: block;
+    padding-top: 8rem;
     }
 }
    

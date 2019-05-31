@@ -20,7 +20,7 @@
             <li class="info__list">
               Installation et mise en
               <span class="bold__text">
-                <router-link to="/router" class="nav__links">réseau</router-link>filaire
+                <router-link to="/router" class="nav__links">réseau</router-link> filaire
               </span> ou
               <span class="bold__text">WiFi</span> du matériel
             </li>
