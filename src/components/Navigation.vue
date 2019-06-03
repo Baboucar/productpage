@@ -18,7 +18,7 @@
             <router-link to="/demander" class="  request" >DEMANDER UN DEVIS</router-link>
         <router-view></router-view>
         </div>
-               <span class="menu__button" @click="openmenu">&#9776;</span>
+               <span class="menu__button" @mouseover="openmenu">&#9776;</span>
           </header>
     
          </div>
@@ -213,8 +213,10 @@ hr{
 }
 .header__nav{
   display: block;
-   margin: 0 auto;
-   font-weight: bold;
+  font-family: unset;
+  margin-left: auto;
+  flex-direction: row;
+  margin-right: 10rem;
   
    
     

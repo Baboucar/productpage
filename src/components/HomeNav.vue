@@ -204,9 +204,13 @@ hr{
   }
 
 .header__nav{
-  display: block;
-   margin: 0 auto;
-   font-weight: bold;
+   display: block;
+  font-family: unset;
+  margin-left: auto;
+  flex-direction: row;
+  margin-right: 10rem;
+  
+   
   
    
     
