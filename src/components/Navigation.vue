@@ -202,7 +202,7 @@ hr{
 
 @media(min-width: 65rem) {
   .menu__button{
-     font-size: 1.5rem;
+     font-size: 3rem;
    position: fixed;
    right: 4rem;
   }
