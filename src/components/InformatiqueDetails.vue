@@ -15,7 +15,7 @@
               <router-link to="/printers" class="nav__links">imprimantes</router-link>,
               <router-link to="/scanner" class="nav__links">scanners</router-link>,
               <router-link to="/asscories" class="nav__links">accessoires</router-link>
-              <router-link to="/photocopy" class="nav__links">et photocopieurs</router-link>
+              <router-link to="/photocopy" class="nav__links"> et photocopieurs</router-link>
             </li>
             <li class="info__list">
               Installation et mise en
