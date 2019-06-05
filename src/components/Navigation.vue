@@ -109,14 +109,16 @@
 </script>
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
 
 .header{
   display: flex;
   background:#1a194d; 
   padding: 1rem 2rem;
   align-items: center;
-  font-family: 'New Rocker', cursive;
+   font-family: 'Bree Serif', serif;
+
+
   
 }
 .subnav{
