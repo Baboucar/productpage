@@ -109,12 +109,14 @@
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css?family=New+Rocker&display=swap');
 
 .header{
   display: flex;
   background:#1a194d; 
   padding: 1rem 2rem;
   align-items: center;
+  font-family: 'New Rocker', cursive;
   
 }
 .subnav{
@@ -160,7 +162,8 @@ hr{
   right: -2000px;
   transition: all .5s;
   height: 100%;
-     background:#1a194d;
+  background:#1a194d;
+  
 
 
 }
@@ -185,10 +188,9 @@ hr{
   padding-left: 1rem;
   padding-bottom: 1rem;
    border-bottom: 2px solid ;
-
    color: #FFFFFF;
-  
    font-size: 1.5rem;
+
 
 }
 

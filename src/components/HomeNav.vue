@@ -103,7 +103,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+@import url('https://fonts.googleapis.com/css?family=New+Rocker&display=swap');
 .header{
   display: flex;
  background: none;
@@ -112,6 +112,7 @@
   padding: 1rem 2rem;
   align-items: center;
   z-index: 100;
+  font-family: 'New Rocker', cursive;
 
   
 }
