@@ -187,7 +187,7 @@ hr{
   margin-top: 4rem;
 }
 
-@media(min-width: 64rem) {
+@media(min-width: 65rem) {
 
 .logo__image{
   width: 120px;
@@ -217,12 +217,15 @@ hr{
 
  
    &__link{
-     color: #FFFFFF;
-     text-decoration: none;
-     padding-left: 2rem;
-     background: #1a194d;
-     padding: 1rem;
-     margin-left: 2rem;
+        color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 2rem;
+    background: #1a194d;
+    padding: 1rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
      &:hover{
        background: #FFFFFF;
        padding: 1rem;
@@ -238,14 +241,14 @@ hr{
 
 
 .request{
-  
-  margin-left: 2rem;
-  padding: 1rem;
-  background: #FFFFFF;
-  color: #1a194d;
-  text-decoration: none;
-  border-radius: 2px;
-   
+ margin-left: 2rem;
+    padding: 1rem;
+    background: #FFFFFF;
+    color: #1a194d;
+    text-decoration: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    font-weight: bold;
 
 }
   .nav{

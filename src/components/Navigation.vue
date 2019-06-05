@@ -18,7 +18,7 @@
             <router-link to="/demander" class="  request" >DEMANDER UN DEVIS</router-link>
         <router-view></router-view>
         </div>
-               <span class="menu__button" @mouseover="openmenu">&#9776;</span>
+               <span class="menu__button" @click="openmenu">&#9776;</span>
           </header>
     
          </div>
@@ -196,7 +196,7 @@ hr{
 //   padding-top: 6rem;
 // }
 
-@media(min-width: 64rem) {
+@media(min-width: 65rem) {
   .menu__button{
      font-size: 1.5rem;
    position: fixed;
@@ -223,9 +223,11 @@ hr{
 
  
    &__link{
-     color: #FFFFFF;
-     text-decoration: none;
-     padding-left: 2rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
      &:hover{
        background: #3f51b5;
        padding: 1rem;
@@ -241,12 +243,15 @@ hr{
 
 .request{
   
-  margin-left: 2rem;
-  padding: 1rem;
-  background: #FFFFFF;
-  color: #1a194d;
-  text-decoration: none;
-  border-radius: 2px;
+    margin-left: 2rem;
+    padding: 1rem;
+    background: #FFFFFF;
+    color: #1a194d;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 1.5rem;
+
    
 
 }
