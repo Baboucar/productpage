@@ -103,8 +103,7 @@
 </script>
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css?family=Croissant+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Balthazar&display=swap');
 .header{
   display: flex;
  background: none;
@@ -114,9 +113,10 @@
   align-items: center;
   z-index: 100;
   
-  
 
-    font-family: 'Croissant One', cursive;
+    font-family: 'Balthazar', serif;
+
+
 
 
 
