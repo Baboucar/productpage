@@ -103,7 +103,7 @@
 </script>
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css?family=Bigshot+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Croissant+One&display=swap');
 
 .header{
   display: flex;
@@ -114,7 +114,11 @@
   align-items: center;
   z-index: 100;
   
-    font-family: 'Bigshot One', cursive;
+  
+
+    font-family: 'Croissant One', cursive;
+
+
 
 
 

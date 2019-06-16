@@ -109,14 +109,17 @@
 </script>
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Croissant+One&display=swap');
+
 
 .header{
   display: flex;
   background:#1a194d; 
   padding: 1rem 2rem;
   align-items: center;
-   font-family: 'Bree Serif', serif;
+    font-family: 'Croissant One', cursive;
+
+
 
 
   
