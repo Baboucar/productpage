@@ -114,8 +114,9 @@
   padding: 1rem 2rem;
   align-items: center;
   z-index: 100;
-
     font-family: 'Spectral SC', serif;
+
+
 
 
 
