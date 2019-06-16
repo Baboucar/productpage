@@ -103,8 +103,7 @@
 </script>
 
 <style lang="scss" scoped>
-
-@import url('https://fonts.googleapis.com/css?family=Spectral+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bigshot+One&display=swap');
 
 .header{
   display: flex;
@@ -114,7 +113,10 @@
   padding: 1rem 2rem;
   align-items: center;
   z-index: 100;
-    font-family: 'Spectral SC', serif;
+  
+    font-family: 'Bigshot One', cursive;
+
+
 
 
 
