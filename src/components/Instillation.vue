@@ -42,7 +42,7 @@
           <div class="icons">
 <a class="" href="https://www.linkedin.com/company/sogesmi-net/about/?viewAsMember=true"><img  src="../assets/link2.png"
         alt="linkedin"></a>
-<a class="icons__link" href="https://www.facebook.com/Sogesminet/"><img src="../assets/face2.png"  alt="facebbok" ></a>
+<a class="icons__link" href="https://www.facebook.com/BW-TECH-708519529580853/about/?ref=page_internal"><img src="../assets/face2.png"  alt="facebbok" ></a>
     </div>
     </section>
 </div>
