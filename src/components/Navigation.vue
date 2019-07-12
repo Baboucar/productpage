@@ -205,13 +205,13 @@ hr{
 
 @media(min-width: 65rem) {
   .menu__button{
-     font-size: 3rem;
+     font-si150pxze: 3rem;
    position: fixed;
    right: 4rem;
   }
 
   .logo__image{
-  width: 150px;
+  width: 250px;
 }
 
  .first__link{
