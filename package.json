@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "selectize": "^0.12.6",
     "slick-carousel": "^1.8.1",
     "vue": "^2.6.10",
