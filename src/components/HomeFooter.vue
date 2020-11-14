@@ -23,14 +23,17 @@ Du Lundi au Vendredi:8H – 18h <br>
 
   <form class="form container" method="POST" action="https://formspree.io/bwtech.contact@gmail.com">
   <h2 class="form__title ">Contact</h2>
+    <div class="flex-inputs">
    <div class="form__input">
    <input type="text" name="" placeholder="Nom" id="">
    </div>
-
+  
    <div class="form__input">
    <input type="text" name="" placeholder="Societe" id="">
    </div>
-   
+   </div>
+
+   <div class="flex-inputs">
    <div class="form__input">
      <label for="telephone" >Phone <span class="red">*</span></label>
    <input type="text" name="" placeholder="Votre Telephone" id="telephone" required>
@@ -40,7 +43,7 @@ Du Lundi au Vendredi:8H – 18h <br>
    <label for="email">Email <span class="red">*</span></label>
    <input type="text" name="" placeholder="email" id="email">
    </div>
-
+ </div>
    <div class="form__input">
    <textarea name="" id="" cols="30" rows="10" placeholder="Votre Message"></textarea>
    </div>
@@ -49,6 +52,16 @@ Du Lundi au Vendredi:8H – 18h <br>
    </div>
   </form>
       </footer>
+
+         <div class="down">
+        <router-link to=""> Mentions légales</router-link>
+         <router-link to="">Nos références</router-link>
+         <router-link to="">Demander un devis </router-link>
+         <router-link to="">S'identifier </router-link>
+         <router-link to="">Conditions générales de location </router-link>
+
+        
+        </div>
     </div>
 </template>
 
@@ -74,6 +87,18 @@ Du Lundi au Vendredi:8H – 18h <br>
         width: 200px;
        }
     }
+}
+
+.down{
+     background: #3f51b5;
+}
+.down a{
+    display: block;
+   
+    color: white;;
+    padding: 1rem;
+    text-decoration: none;
+    margin-top: 0;
 }
 .red{
     color: red;
@@ -128,5 +153,17 @@ label{
        display: grid;
        grid-template-columns: 1fr 1fr 2fr ;
    }
+
+   .flex-inputs{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+  }
+
+    .down a{
+      display: inline-block;
+      font-weight: bold;
+      
+  }
 }
 </style>
